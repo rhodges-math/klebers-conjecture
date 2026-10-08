@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use or adapt this code, please cite this repository."
+type: software
+title: "klebers-conjecture: Lean verification of Kleber's conjecture and complementary products of symmetric functions"
+abstract: >-
+  A Lean 4 formalization of R. Hodges, H. Yin, "Kleber's conjecture and
+  complementary products of symmetric functions": over every commutative ring,
+  the products of Schur functions indexed by the unordered complementary pairs
+  in a rectangle are linearly independent (Kleber's conjecture, Theorem 1.1),
+  and so are the products indexed by the splittings of a partition
+  (Theorem 1.2); the same holds for products of Koike-Terada universal
+  characters over every field (Corollary 1.3) and for products of monomial
+  symmetric functions over fields of characteristic zero and over the integers
+  (Theorem 1.4), together with every other statement of the paper.
+  Accompanying libraries develop partitions as Young diagrams, the lattice of
+  set partitions, and the ring of symmetric functions over any commutative ring.
+authors:
+  - family-names: Hodges
+    given-names: Reuven
+version: "1.0.0"
+repository-code: "https://github.com/rhodges-math/klebers-conjecture"
+license: Apache-2.0
+keywords:
+  - Lean 4
+  - Mathlib
+  - formalization
+  - symmetric functions
+  - Schur functions
+  - Littlewood-Richardson rule
+  - Kleber's conjecture
+  - universal characters
+references:
+  - type: article
+    title: "Kleber's conjecture and complementary products of symmetric functions"
+    authors:
+      - family-names: Hodges
+        given-names: Reuven
+      - family-names: Yin
+        given-names: Hanzhang
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2607.12120"
+        description: "arXiv identifier"
+      - type: url
+        value: "https://arxiv.org/abs/2607.12120"

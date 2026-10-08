@@ -1,0 +1,11 @@
+klebers-conjecture: Lean verification of Kleber's conjecture and complementary products of symmetric functions
+Copyright 2026 Reuven Hodges
+
+This formalization accompanies R. Hodges, H. Yin, *Kleber's conjecture and complementary
+products of symmetric functions* (arXiv:2607.12120). If you use or adapt this code, please cite
+this repository.
+
+This repository contains no third-party source files. Mathlib, Tau Ceti and their
+dependencies are downloaded by Lake at pinned revisions and keep their own licenses.
+
+See THIRD_PARTY_NOTICES.md.
