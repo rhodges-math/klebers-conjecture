@@ -1,776 +1,776 @@
 [
  {
-  "module": "Schubert.ComplementaryProducts.Audit",
-  "path": "Schubert/ComplementaryProducts/Audit.lean",
+  "module": "KlebersConjecture.Paper.Audit",
+  "path": "KlebersConjecture/Paper/Audit.lean",
   "origin_kind": "unchanged",
-  "sha256": "4c1ba23cf8f55c064965b41323986cfa1b6703157065ec66785c2f50a75403ab"
+  "sha256": "5834ef184fb93e2ae6dfa86a4967fd74e9583a0cee08804cb4ccc43d64d4f5f4"
  },
  {
-  "module": "Schubert.ComplementaryProducts.CharacteristicTwo",
-  "path": "Schubert/ComplementaryProducts/CharacteristicTwo.lean",
+  "module": "KlebersConjecture.Paper.CharacteristicTwo",
+  "path": "KlebersConjecture/Paper/CharacteristicTwo.lean",
   "origin_kind": "unchanged",
-  "sha256": "4c800e7561af3808ae287a484adac5806939185984edb8f66d2481828c6f0f3e"
+  "sha256": "eeb0319e04ff4087b4bfb721ef4607fdbc7639efb31711f62c28874d6d8f511f"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Examples",
-  "path": "Schubert/ComplementaryProducts/Examples.lean",
+  "module": "KlebersConjecture.Paper.Examples",
+  "path": "KlebersConjecture/Paper/Examples.lean",
   "origin_kind": "unchanged",
-  "sha256": "e4b731e16ea415eec6c0edf82245450642571d430b55369712f2940135508466"
+  "sha256": "1870a1e651d4e23074d8373c367d906f4308ec096652313b057d9e3e4d3f6357"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Gap",
-  "path": "Schubert/ComplementaryProducts/Gap.lean",
+  "module": "KlebersConjecture.Paper.Gap",
+  "path": "KlebersConjecture/Paper/Gap.lean",
   "origin_kind": "unchanged",
-  "sha256": "5d7708dfa4bdece3f8a9bfcb5bbf8fcd5102ce8ff2deaaaf2a05ff8793bd87df"
+  "sha256": "0539c4752598c9e832efff41d979579b8c4aaaf37e7e506836cf637d3f5fddb8"
  },
  {
-  "module": "Schubert.ComplementaryProducts.GapBlocks",
-  "path": "Schubert/ComplementaryProducts/GapBlocks.lean",
+  "module": "KlebersConjecture.Paper.GapBlocks",
+  "path": "KlebersConjecture/Paper/GapBlocks.lean",
   "origin_kind": "unchanged",
-  "sha256": "506dba5d9c2311116b203c04bd96cbbc2449101a970f8631d0861fef749d01c2"
+  "sha256": "4818bc723042942f1ddd267733b10e71a87a07a105cad08afb0fd9ec4b3c756f"
  },
  {
-  "module": "Schubert.ComplementaryProducts.GapProjection",
-  "path": "Schubert/ComplementaryProducts/GapProjection.lean",
+  "module": "KlebersConjecture.Paper.GapProjection",
+  "path": "KlebersConjecture/Paper/GapProjection.lean",
   "origin_kind": "unchanged",
-  "sha256": "8e548c273a268c4793703582211b0ec9306c4f1612570aa74218536ec878cc85"
+  "sha256": "ab926580bd57ad2972ef0dbfffa99dc99875a18caaad4b59633859b228528cba"
  },
  {
-  "module": "Schubert.ComplementaryProducts.GapTails",
-  "path": "Schubert/ComplementaryProducts/GapTails.lean",
+  "module": "KlebersConjecture.Paper.GapTails",
+  "path": "KlebersConjecture/Paper/GapTails.lean",
   "origin_kind": "unchanged",
-  "sha256": "e0736cef8912d9ada651ff31492ed64afafbf528be36990caedd3600fdc1f575"
+  "sha256": "b6dc402166eea72f85e286eea269517b05259f188ebc30511aa5ee2eef68f180"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Indices",
-  "path": "Schubert/ComplementaryProducts/Indices.lean",
+  "module": "KlebersConjecture.Paper.Indices",
+  "path": "KlebersConjecture/Paper/Indices.lean",
   "origin_kind": "unchanged",
-  "sha256": "31ff43087a63e00cd54961feff51c14dce3db1ad5852a859a2b24043f7079221"
+  "sha256": "95339305961fc62a06afe395c80db2ba91389f452bff239a3f490ff906a9aadd"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Main",
-  "path": "Schubert/ComplementaryProducts/Main.lean",
+  "module": "KlebersConjecture.Paper.Main",
+  "path": "KlebersConjecture/Paper/Main.lean",
   "origin_kind": "unchanged",
-  "sha256": "f4a691972e016c206431f062ce31ffadb11118e6cb53ae82cf36d42129783a99"
+  "sha256": "3aaab2037a68bf3c86bd28a05426bb07c0f9bfff5c4731e9360254ce8226b27f"
  },
  {
-  "module": "Schubert.ComplementaryProducts.MaximalSelfPair",
-  "path": "Schubert/ComplementaryProducts/MaximalSelfPair.lean",
+  "module": "KlebersConjecture.Paper.MaximalSelfPair",
+  "path": "KlebersConjecture/Paper/MaximalSelfPair.lean",
   "origin_kind": "unchanged",
-  "sha256": "d12de7328969401ed049d86418ba541cb699d20cbb50f7fe991a71f32e9f9dd8"
+  "sha256": "fcf71a6ee72e88fc39c8a185f62cc79b6dda7e65e7dfa0f8d71f547b5b3a8889"
  },
  {
-  "module": "Schubert.ComplementaryProducts.MonomialIndependence",
-  "path": "Schubert/ComplementaryProducts/MonomialIndependence.lean",
+  "module": "KlebersConjecture.Paper.MonomialIndependence",
+  "path": "KlebersConjecture/Paper/MonomialIndependence.lean",
   "origin_kind": "unchanged",
-  "sha256": "7fb0870f511e9c33a99310e146d7b82ec8d078c357b434b42f7ac7a40991d827"
+  "sha256": "f37200afbc01397da43951618728a4510f26ff015375bfd812ddf801d7ceff6d"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Oriented",
-  "path": "Schubert/ComplementaryProducts/Oriented.lean",
+  "module": "KlebersConjecture.Paper.Oriented",
+  "path": "KlebersConjecture/Paper/Oriented.lean",
   "origin_kind": "unchanged",
-  "sha256": "101f2a1b5781f0d61c6343200c72acd7ee57893519ab3e7184cd37d0c3b29524"
+  "sha256": "f6b771ce9f7f198234c5aae13a2e17dffb99efeb354dc44c290748a09572ad05"
  },
  {
-  "module": "Schubert.ComplementaryProducts.OrientedIndependence",
-  "path": "Schubert/ComplementaryProducts/OrientedIndependence.lean",
+  "module": "KlebersConjecture.Paper.OrientedIndependence",
+  "path": "KlebersConjecture/Paper/OrientedIndependence.lean",
   "origin_kind": "unchanged",
-  "sha256": "43472add1e9387f8e036693681a441d263ad15d66de7589fb1b2f4d85809e9fd"
+  "sha256": "66df5abd9301a433222e77f01891ffdbc34fcb197a82a5e5d64602f423f2956c"
  },
  {
-  "module": "Schubert.ComplementaryProducts.Products",
-  "path": "Schubert/ComplementaryProducts/Products.lean",
+  "module": "KlebersConjecture.Paper.Products",
+  "path": "KlebersConjecture/Paper/Products.lean",
   "origin_kind": "unchanged",
-  "sha256": "1ff653a1fb0b63bb31d047c18b823602876c1d5a547370ad6cfb595e84cbf1c6"
+  "sha256": "59d7e540dea4cd330fdc3588a1633bf5aed0645a4ee5f8bf97e953b7fba4fcd7"
  },
  {
-  "module": "Schubert.ComplementaryProducts.RectangularIndependence",
-  "path": "Schubert/ComplementaryProducts/RectangularIndependence.lean",
+  "module": "KlebersConjecture.Paper.RectangularIndependence",
+  "path": "KlebersConjecture/Paper/RectangularIndependence.lean",
   "origin_kind": "unchanged",
-  "sha256": "8682ad6bb48f4aa6d7643f67b546273b206dfdb4050b36c0a2c127cd44ee30dc"
+  "sha256": "5301f8bf8ad51db2861049088f3fccd9421def1e6ed613af5fde9e2a985e1292"
  },
  {
-  "module": "Schubert.ComplementaryProducts.SplittingDerivative",
-  "path": "Schubert/ComplementaryProducts/SplittingDerivative.lean",
+  "module": "KlebersConjecture.Paper.SplittingDerivative",
+  "path": "KlebersConjecture/Paper/SplittingDerivative.lean",
   "origin_kind": "unchanged",
-  "sha256": "c6d6163cf75170b9fc5c8ce10731b735f38d8c6fa7e0a6ee28ba1719954e1c8a"
+  "sha256": "44bd2b49cb5260a5a5c5cfa086501a92ce310a6b1d13ff6d2fd210d741527ad1"
  },
  {
-  "module": "Schubert.ComplementaryProducts.SplittingIndependence",
-  "path": "Schubert/ComplementaryProducts/SplittingIndependence.lean",
+  "module": "KlebersConjecture.Paper.SplittingIndependence",
+  "path": "KlebersConjecture/Paper/SplittingIndependence.lean",
   "origin_kind": "unchanged",
-  "sha256": "d24197dcb995d6315aca054520cc222f0dea4d22c61f7f4ebf306d41af0d47c1"
+  "sha256": "8bd4839861534484615d9ec514ce113e91a8c2c59223b47d6d59ceb6e487acc9"
  },
  {
-  "module": "Schubert.ComplementaryProducts.TensorIndependence",
-  "path": "Schubert/ComplementaryProducts/TensorIndependence.lean",
+  "module": "KlebersConjecture.Paper.TensorIndependence",
+  "path": "KlebersConjecture/Paper/TensorIndependence.lean",
   "origin_kind": "unchanged",
-  "sha256": "efba6ca799ca35dbe5b2552b023000cc9d0541afdee6d7172f517d6952506e47"
+  "sha256": "cb8b2e0f4cb97f11774a419cec78d5640b146fe6f7bd202ff9fa3f1e492836b9"
  },
  {
-  "module": "Schubert.ComplementaryProducts.TensorProducts",
-  "path": "Schubert/ComplementaryProducts/TensorProducts.lean",
+  "module": "KlebersConjecture.Paper.TensorProducts",
+  "path": "KlebersConjecture/Paper/TensorProducts.lean",
   "origin_kind": "unchanged",
-  "sha256": "c9ebf1061384496e124afcc3e636cfe0cb66b3274e09771639c826f564370f61"
+  "sha256": "561ad097aebabab88f6a20573bd7767c21ae956fd3f16c2ce987aaac3b890bc9"
  },
  {
-  "module": "Schubert.ComplementaryProducts.UniversalProducts",
-  "path": "Schubert/ComplementaryProducts/UniversalProducts.lean",
+  "module": "KlebersConjecture.Paper.UniversalProducts",
+  "path": "KlebersConjecture/Paper/UniversalProducts.lean",
   "origin_kind": "unchanged",
-  "sha256": "e5853197f903df414aa328c71bd337f3fa68baefd5800036bb3ec7030c094ebb"
+  "sha256": "bc7dc956b33b5c43a56b7e23cca17d7b4665e4b01529ef81d9828b52a7534229"
  },
  {
-  "module": "Schubert.Partitions.Basic",
-  "path": "Schubert/Partitions/Basic.lean",
+  "module": "KlebersConjecture.Partitions.Basic",
+  "path": "KlebersConjecture/Partitions/Basic.lean",
   "origin_kind": "unchanged",
   "sha256": "534813e6f9da7769748da35ac1892d9e6c10ea3692e35999cb9cc4613144e791"
  },
  {
-  "module": "Schubert.Partitions.Bounds",
-  "path": "Schubert/Partitions/Bounds.lean",
+  "module": "KlebersConjecture.Partitions.Bounds",
+  "path": "KlebersConjecture/Partitions/Bounds.lean",
   "origin_kind": "unchanged",
-  "sha256": "58b99c5b6cb713c5d012d62d105fb30db6dee2606980fadf90a48a5a59b4adc0"
+  "sha256": "bd541bc027bcacfa617e5fb0b63b9461be9a9ad2268279740fff03dea9089a51"
  },
  {
-  "module": "Schubert.Partitions.Main",
-  "path": "Schubert/Partitions/Main.lean",
+  "module": "KlebersConjecture.Partitions.Main",
+  "path": "KlebersConjecture/Partitions/Main.lean",
   "origin_kind": "unchanged",
-  "sha256": "93d0bde68b98e0e3648aea51a1776172aeae0ba43aade8b656511a78a5551907"
+  "sha256": "298225c88d6cc4e1d4e417d64c8cbf455a40abdc10404513924407f96a6cd774"
  },
  {
-  "module": "Schubert.Partitions.Multiplicities",
-  "path": "Schubert/Partitions/Multiplicities.lean",
+  "module": "KlebersConjecture.Partitions.Multiplicities",
+  "path": "KlebersConjecture/Partitions/Multiplicities.lean",
   "origin_kind": "unchanged",
-  "sha256": "5bf66e641d6cb28ee8c3ccf313e39ecf556310084378558ebf37aadf3063d4b2"
+  "sha256": "3ca0cded5e64c7debe46472582172bbf52cb81bb74861ac94bc0b0dd7992718d"
  },
  {
-  "module": "Schubert.Partitions.Rectangle",
-  "path": "Schubert/Partitions/Rectangle.lean",
+  "module": "KlebersConjecture.Partitions.Rectangle",
+  "path": "KlebersConjecture/Partitions/Rectangle.lean",
   "origin_kind": "unchanged",
-  "sha256": "5ad236f6918eea2dbff69f1fdc74ee84e1f0630beb29134ace7fdb0c01e9dbca"
+  "sha256": "af08c56b8414570c3bac6b7c89b548853fd616fb78d9edcd2013a826d862e474"
  },
  {
-  "module": "Schubert.Partitions.Rows",
-  "path": "Schubert/Partitions/Rows.lean",
+  "module": "KlebersConjecture.Partitions.Rows",
+  "path": "KlebersConjecture/Partitions/Rows.lean",
   "origin_kind": "unchanged",
-  "sha256": "d6a9dc09022e2f01ea7f001d0dd9bde9b8c6f10a79cd2a13403926b86d5d5213"
+  "sha256": "057224340666d890625e8e5ff9080e4c65654f7ca39eaa29468a3671416e41a5"
  },
  {
-  "module": "Schubert.Partitions.SingleShapes",
-  "path": "Schubert/Partitions/SingleShapes.lean",
+  "module": "KlebersConjecture.Partitions.SingleShapes",
+  "path": "KlebersConjecture/Partitions/SingleShapes.lean",
   "origin_kind": "unchanged",
-  "sha256": "bcaed3c057cc6e6d736243e27e4ce39caa2b2833bbbabddf5b846a7cec9b1975"
+  "sha256": "b8bf90d71b909eea87fb067213c2f425eefcf50d7cfb48e23ebb7c0c447b6695"
  },
  {
-  "module": "Schubert.Partitions.Skew.Cutoffs",
-  "path": "Schubert/Partitions/Skew/Cutoffs.lean",
+  "module": "KlebersConjecture.Partitions.Skew.Cutoffs",
+  "path": "KlebersConjecture/Partitions/Skew/Cutoffs.lean",
   "origin_kind": "unchanged",
-  "sha256": "be97049e4ecd3f0b10a84f4fc9cc14d1bc3c117979e37d431e3a85b8eb7301dc"
+  "sha256": "3cf16d614a66212b7f6558208c3a0b3af912fd75c140e75b800612fc0fae888d"
  },
  {
-  "module": "Schubert.Partitions.Skew.LatticeWord",
-  "path": "Schubert/Partitions/Skew/LatticeWord.lean",
+  "module": "KlebersConjecture.Partitions.Skew.LatticeWord",
+  "path": "KlebersConjecture/Partitions/Skew/LatticeWord.lean",
   "origin_kind": "unchanged",
-  "sha256": "199130f7da0b73e2acb5ba1354088e7a2109db4a296cae4820bd463f7e11695a"
+  "sha256": "7fc22b320682401bae5689a52aa7e6fb83a86b09f080c614f814024229f1269b"
  },
  {
-  "module": "Schubert.Partitions.Skew.LRTableau",
-  "path": "Schubert/Partitions/Skew/LRTableau.lean",
+  "module": "KlebersConjecture.Partitions.Skew.LRTableau",
+  "path": "KlebersConjecture/Partitions/Skew/LRTableau.lean",
   "origin_kind": "unchanged",
-  "sha256": "b73ec8b734ae2b11e1ec258aaaefa4c926b58208e04e1ad629e60fb6d969a009"
+  "sha256": "8a1feda5c2a7feb4bfa6bfebc563043326034c38dd6e2bdf6e41e42aaa3d8d41"
  },
  {
-  "module": "Schubert.Partitions.Skew.RowCounts",
-  "path": "Schubert/Partitions/Skew/RowCounts.lean",
+  "module": "KlebersConjecture.Partitions.Skew.RowCounts",
+  "path": "KlebersConjecture/Partitions/Skew/RowCounts.lean",
   "origin_kind": "unchanged",
-  "sha256": "c48e4588ae67a361b6ac9f66cf303ccca004420109ffa5d353cb56af756274e9"
+  "sha256": "cef1998af418f1618064f458b55507cfeb55dcb5dcb38bda97e2431230fe7976"
  },
  {
-  "module": "Schubert.Partitions.Skew.Tableau",
-  "path": "Schubert/Partitions/Skew/Tableau.lean",
+  "module": "KlebersConjecture.Partitions.Skew.Tableau",
+  "path": "KlebersConjecture/Partitions/Skew/Tableau.lean",
   "origin_kind": "unchanged",
-  "sha256": "ab3846bc35bf0e1e12d40a985e85f429c0d4aa0c5d11e9dce2203a3e48c12fd2"
+  "sha256": "408d9397359e134ef29e5fbdd6e84b8db956bac806660b900dae2254597275ed"
  },
  {
-  "module": "Schubert.Partitions.Skew.Word",
-  "path": "Schubert/Partitions/Skew/Word.lean",
+  "module": "KlebersConjecture.Partitions.Skew.Word",
+  "path": "KlebersConjecture/Partitions/Skew/Word.lean",
   "origin_kind": "unchanged",
-  "sha256": "f522ba89bd20497650682af77f9b25f637d72af280e16724c82fb28a993e7542"
+  "sha256": "09a56d8af9a8623b7b5bb1392574149560a41512d2c868419517e799f7d591f8"
  },
  {
-  "module": "Schubert.Partitions.Tableau.RowMaps",
-  "path": "Schubert/Partitions/Tableau/RowMaps.lean",
+  "module": "KlebersConjecture.Partitions.Tableau.RowMaps",
+  "path": "KlebersConjecture/Partitions/Tableau/RowMaps.lean",
   "origin_kind": "unchanged",
-  "sha256": "cf74988bc3fb8f93fbf02c06fe6004e85d6ceb34667fb8a62f3243f5e5fd65f4"
+  "sha256": "8fe72c2557ad1f7840939a3adee1a5f3131a4a3640f68946297deb2384ec96a1"
  },
  {
-  "module": "Schubert.SetPartitions.Basic",
-  "path": "Schubert/SetPartitions/Basic.lean",
+  "module": "KlebersConjecture.SetPartitions.Basic",
+  "path": "KlebersConjecture/SetPartitions/Basic.lean",
   "origin_kind": "unchanged",
   "sha256": "27b554a810429a1624dbfa6cb2e4472b3792bd3f9d51e12488f53080ffe29591"
  },
  {
-  "module": "Schubert.SetPartitions.Blocks",
-  "path": "Schubert/SetPartitions/Blocks.lean",
+  "module": "KlebersConjecture.SetPartitions.Blocks",
+  "path": "KlebersConjecture/SetPartitions/Blocks.lean",
   "origin_kind": "unchanged",
-  "sha256": "ab9e334c3090170308e76851715881df4a26ac2a58436c1fee204a33a3ffc438"
+  "sha256": "e33ce021a71a645d64d964b10217a55a64a1662827899580543d2e942c6f33e7"
  },
  {
-  "module": "Schubert.SetPartitions.Counting",
-  "path": "Schubert/SetPartitions/Counting.lean",
+  "module": "KlebersConjecture.SetPartitions.Counting",
+  "path": "KlebersConjecture/SetPartitions/Counting.lean",
   "origin_kind": "unchanged",
-  "sha256": "536dffd8ad381e0f9459bcdfb482f6229a3d9224afdf51093a9b476349361eba"
+  "sha256": "ab050d89ee3376ea48aff1b5f8ba9607254ec361519a7e116846e1260f69a0dc"
  },
  {
-  "module": "Schubert.SetPartitions.ForMathlib.Pochhammer",
-  "path": "Schubert/SetPartitions/ForMathlib/Pochhammer.lean",
+  "module": "KlebersConjecture.SetPartitions.ForMathlib.Pochhammer",
+  "path": "KlebersConjecture/SetPartitions/ForMathlib/Pochhammer.lean",
   "origin_kind": "unchanged",
   "sha256": "749c53cd224b9cf013c10b520b878c229ff838e5702d30b6e7cecb44810444f2"
  },
  {
-  "module": "Schubert.SetPartitions.Main",
-  "path": "Schubert/SetPartitions/Main.lean",
+  "module": "KlebersConjecture.SetPartitions.Main",
+  "path": "KlebersConjecture/SetPartitions/Main.lean",
   "origin_kind": "unchanged",
-  "sha256": "355e207e11becef5f91c634d52363f6196ac48b93be0eff8241a6c80f6ba0f18"
+  "sha256": "b6cd4e45f0dcb0660f21757f613c1035c5297b3e812c4d62bbbcc65367d29bda"
  },
  {
-  "module": "Schubert.SetPartitions.Moebius",
-  "path": "Schubert/SetPartitions/Moebius.lean",
+  "module": "KlebersConjecture.SetPartitions.Moebius",
+  "path": "KlebersConjecture/SetPartitions/Moebius.lean",
   "origin_kind": "unchanged",
-  "sha256": "2d8802e2a45507a75d1c8f014cbec1a73345f049b446163a1994b95909edb33d"
+  "sha256": "31949929435c01394afb767abc339a87e98c243581273136c5ee6306c160000b"
  },
  {
-  "module": "Schubert.SetPartitions.WeightedSums",
-  "path": "Schubert/SetPartitions/WeightedSums.lean",
+  "module": "KlebersConjecture.SetPartitions.WeightedSums",
+  "path": "KlebersConjecture/SetPartitions/WeightedSums.lean",
   "origin_kind": "unchanged",
-  "sha256": "d1aa0ebf86aed646a375af7aaf1a0db5f22df32f1f6541c29736645c138b7e1a"
+  "sha256": "a2e0482114900146c3d7e6aa199ba7519e2fbf1b39bd48e45ece8f148c570a5d"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.CompleteBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/CompleteBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.CompleteBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "ba21790001abf1bdb50e73ca67321c6ac3c3caf11e76468ee81b7dd2f6d40656"
+  "sha256": "f9d17123e4dcd7f26b5c01001120592c346d1a07eb28d0db09a65f12918651a1"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.ElementaryBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/ElementaryBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.ElementaryBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/ElementaryBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "1d7a751cd31524135ca12d6c2e4447090bed3c89e1eb16254638882cb0afc362"
+  "sha256": "eb0b2c33de0421971de965de86507c0108a5bfb2a26c81fd61611c2c9552112e"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.MonomialBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/MonomialBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.MonomialBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "ed06e5a508cadd80116ebf87ad6f5c56963e8db300432f07bb42eb796b6b9613"
+  "sha256": "a69677a9f0b15c3c839e1417a6beeda490e5b71566cbc0762dd86dc0816cfbfe"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.PowerSumBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.PowerSumBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "f165b1aab645e3720d42259cc4444343e5e2e7bef2fbdc5f63808197365bcb05"
+  "sha256": "ff7d3c7e10a25a24e72b5694263ab09e71a8816a345a2b087c0afe0cf0209a31"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.ProductBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/ProductBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.ProductBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/ProductBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "ad5188492866cf809b082092a8574bf51114cb8be5dd33751b570c66f52827f6"
+  "sha256": "9fbff4ff6459b68d27b215f02a0e58dc466b8b17e2d74a19cc96f36714fa0269"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.SchurBasis",
-  "path": "Schubert/SymmetricFunctions/Bases/SchurBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.SchurBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean",
   "origin_kind": "unchanged",
-  "sha256": "5b79dc0ec718fb4e5f22507c558f92c27cc4550bd13abece289b64b1744f7c6c"
+  "sha256": "209ba67e8a16e8affdffbcdd425e5fbe78991ce38cb3d1c75164fd5b88641482"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Bases.SchurCoordinates",
-  "path": "Schubert/SymmetricFunctions/Bases/SchurCoordinates.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Bases.SchurCoordinates",
+  "path": "KlebersConjecture/SymmetricFunctions/Bases/SchurCoordinates.lean",
   "origin_kind": "unchanged",
-  "sha256": "8451aec062cf5b9e9904be444c1148a9cc2d0e21913cc85ff8a0e78576682fd2"
+  "sha256": "c6b42283beb85a64ea3eb1a319c9bf69a782f5339de9977f75c2cfed52324d17"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Basic",
-  "path": "Schubert/SymmetricFunctions/Basic.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Basic",
+  "path": "KlebersConjecture/SymmetricFunctions/Basic.lean",
   "origin_kind": "unchanged",
   "sha256": "747b5077b12685132717a31e8a76beb757a6d21def5790a1b6a299fc45e02dbc"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Coefficients",
-  "path": "Schubert/SymmetricFunctions/Coefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Coefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/Coefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "d4dca0be01be2e61fc2ecffcce21d3056d76d24b2520f19d9ab7d2f4fa8c89e2"
+  "sha256": "d6233a077e67cb4aa13f403e62d36bc7ea45b72b5f874d7e46491289fca6aa33"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Components",
-  "path": "Schubert/SymmetricFunctions/Components.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Components",
+  "path": "KlebersConjecture/SymmetricFunctions/Components.lean",
   "origin_kind": "unchanged",
-  "sha256": "659727ee76ab5f5ec65d5e92a9266d109ed75b6a5349d2f470abd5b18522a43d"
+  "sha256": "43e9d672cccb57cc2090f24630728d0e751c94ca9ddec61175dada7b70cea24e"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.CompleteIdentities",
-  "path": "Schubert/SymmetricFunctions/Families/CompleteIdentities.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.CompleteIdentities",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/CompleteIdentities.lean",
   "origin_kind": "unchanged",
-  "sha256": "b81fde3d8669d6f344c0167f714fd24e3192b62bfa0b5ee10a575f5b86097b99"
+  "sha256": "c5eaa5eb63cc2fdd01c45f1151827fc3d216e65b0349afd5f8db09388a5c31ea"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Exponents",
-  "path": "Schubert/SymmetricFunctions/Families/Exponents.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Exponents",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Exponents.lean",
   "origin_kind": "unchanged",
-  "sha256": "3d0fb648aec4bf9061ff67792b5e49852acc8eeca3eaf24a99c0043cf689baf1"
+  "sha256": "91d7474a6d690a952c9d4c5f5988cf2c231008e6bdc6d83a90cb1fd5b42790a4"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Families",
-  "path": "Schubert/SymmetricFunctions/Families/Families.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Families",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Families.lean",
   "origin_kind": "unchanged",
-  "sha256": "76e2a761934544a6b6a57ccc56cefecc8a5c62c88d8de8f13efa2bf493952330"
+  "sha256": "4545b751c2a5b167581df4aeea330d37f832c869a87f79409fc41b3c6de203e0"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Monomial",
-  "path": "Schubert/SymmetricFunctions/Families/Monomial.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Monomial",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Monomial.lean",
   "origin_kind": "unchanged",
-  "sha256": "6b87950a524f1938a93dcecae3971341906507f85a11c9422c6f4a8c1c83443e"
+  "sha256": "e14a54c550f30bb7c9462f3446851afe3a71b06a93d894548334725a48364d31"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Omega",
-  "path": "Schubert/SymmetricFunctions/Families/Omega.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Omega",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Omega.lean",
   "origin_kind": "unchanged",
-  "sha256": "9ad6dca0347247a48960b73bd0cb9379a5a56066f2e15cd46f6e0cf6525af10f"
+  "sha256": "6918b957263fb3412e106c6e6359c33625a49b4d1c1a71c2e24dd7c8bfbc8f70"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.PowerSumIdentities",
-  "path": "Schubert/SymmetricFunctions/Families/PowerSumIdentities.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.PowerSumIdentities",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/PowerSumIdentities.lean",
   "origin_kind": "unchanged",
-  "sha256": "a6c145dcfbe8d2d8ea688a268af004aa55f159f48e88b75203643c49c255e78c"
+  "sha256": "c3b3138d636d9dbc370b4859157d6bf532049a824ae57736aa348db0efa626b6"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Products",
-  "path": "Schubert/SymmetricFunctions/Families/Products.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Products",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Products.lean",
   "origin_kind": "unchanged",
-  "sha256": "0419380f0e0c8b47f0deee4e79d72c4a078f7144d80f23fdc036d174ec99273f"
+  "sha256": "132236d5750c2f6d8d3a5b05df0d862843818b3bdc2048cbd7032076e5ee560b"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Families.Schur",
-  "path": "Schubert/SymmetricFunctions/Families/Schur.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Families.Schur",
+  "path": "KlebersConjecture/SymmetricFunctions/Families/Schur.lean",
   "origin_kind": "unchanged",
-  "sha256": "712d1b7feb76f70add79ccef8b4d41ae7c04931a9a8b9a7253a8f125c992fa1e"
+  "sha256": "848bf530546d256cd3cd7c54bcf034a3006d14fe1d78067c330ef0a21a836b72"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.AlternantRegularity",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/AlternantRegularity.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.AlternantRegularity",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/AlternantRegularity.lean",
   "origin_kind": "unchanged",
-  "sha256": "eb2ed2642aaddc852ec428a7cd26e6cafafdc267c9f787b4147077d53b26c34f"
+  "sha256": "80e4b7018237e3625f7364baa8a082ef57a9f97794ee601d1138e38e89ae8d7f"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.CompleteCoefficients",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/CompleteCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.CompleteCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/CompleteCoefficients.lean",
   "origin_kind": "unchanged",
   "sha256": "396c48cd5ff8dd04b7643f9e039c0b7a8646f9aa56195fdd935cb2fc3f42ebde"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.DegreeLoweringBasis",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/DegreeLoweringBasis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.DegreeLoweringBasis",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/DegreeLoweringBasis.lean",
   "origin_kind": "unchanged",
   "sha256": "39f19392ab06eb8e271201e8b5114cedca2db64360a11bfde8f4ed9a13dfceb6"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.DerivationTransport",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/DerivationTransport.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.DerivationTransport",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/DerivationTransport.lean",
   "origin_kind": "unchanged",
   "sha256": "287def8c65d6e474f25f49069600a479487bcdb5e112d8ec9cd22e8c3c0f7d03"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.FiniteMonomialWeights",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/FiniteMonomialWeights.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.FiniteMonomialWeights",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/FiniteMonomialWeights.lean",
   "origin_kind": "unchanged",
-  "sha256": "48555c03b41c1bb81787a80a75e6e6f29b94068ca18e07062d5149caca5a21fd"
+  "sha256": "704da1570831a1827382ff2253c60d477409cc3880cf91cac161b706e3092c52"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.GeneratorCoefficients",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/GeneratorCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.GeneratorCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/GeneratorCoefficients.lean",
   "origin_kind": "unchanged",
   "sha256": "74c3acd22ab642804ec47af720e92bf4383686f867553420053d7448700f599a"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.GeneratorDeterminant",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/GeneratorDeterminant.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.GeneratorDeterminant",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/GeneratorDeterminant.lean",
   "origin_kind": "unchanged",
   "sha256": "8c2d370adcf8c16d803b68a8abbb837b521d8692fc0b8de1eeefdb8e2b94ade6"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.GeneratorSubalgebra",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/GeneratorSubalgebra.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.GeneratorSubalgebra",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/GeneratorSubalgebra.lean",
   "origin_kind": "unchanged",
   "sha256": "50a35f74b22960cc7174c34c3fa55b74311f060f035d82c99e07d052314811b7"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.InterpolationComplete",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/InterpolationComplete.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.InterpolationComplete",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/InterpolationComplete.lean",
   "origin_kind": "unchanged",
-  "sha256": "6190f6017c67a0119d88bf6ab2817f1a9d4c42e281fc29164b177d26383f8c75"
+  "sha256": "93c699777760580f4ff8883ffdb387cf1cc3e33cd177e489190bba351700b51f"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.InterpolationDeterminant",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/InterpolationDeterminant.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.InterpolationDeterminant",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/InterpolationDeterminant.lean",
   "origin_kind": "unchanged",
-  "sha256": "02ba288db87a7df3516bcf3efb64503833126e2706396b59eb661f4737a8d71a"
+  "sha256": "ceb8f86e103c646ed6ed612d2f1a3d947c739d770ce41e8f086b14845268ef9c"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.InterpolationMoments",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/InterpolationMoments.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.InterpolationMoments",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/InterpolationMoments.lean",
   "origin_kind": "unchanged",
   "sha256": "55d34128a5b4b5f03f2e57d3cccde09f29131b753fe21047cf2a612a247de5d7"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.PositiveTriangular",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/PositiveTriangular.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.PositiveTriangular",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/PositiveTriangular.lean",
   "origin_kind": "unchanged",
-  "sha256": "a8b2830cf99bfb55e858274d98d7fbd363859652543b9e45038fc406c0f72ce4"
+  "sha256": "b7756c6ae0e18a49678059dd0d0812afa5c73ec30d180e8641a46f2f631fe6e4"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.PresentationCoefficients",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/PresentationCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.PresentationCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/PresentationCoefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "31db3352d3e69992d8bc28c0f31808fa7ea665da4bee80f03cec69ee140b866b"
+  "sha256": "329fffa2e4e133acbe48c2cc211d00f98dae89ebc2c07519f5d7fb33af51b79d"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.Triangular",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/Triangular.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.Triangular",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/Triangular.lean",
   "origin_kind": "unchanged",
   "sha256": "66207ec52e165d5639444486279fd0df6e4839bea5131d4ad45d2469f34fafc9"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.VariableProducts",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/VariableProducts.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.VariableProducts",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/VariableProducts.lean",
   "origin_kind": "unchanged",
-  "sha256": "353373abd0df72dd1a7f048e8fbd22dcd0157255217a06e77c3dbc23fbe59f56"
+  "sha256": "878353062822b3b45738b41ba42f8d7956588b4e3c3e68b4380f8aa77039f4d2"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.WeightedEvaluation",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/WeightedEvaluation.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.WeightedEvaluation",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/WeightedEvaluation.lean",
   "origin_kind": "unchanged",
   "sha256": "435f6821e59022e7d48a7ef556e340d3a9e788b76efba52c0d257554b5f7f8f5"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ForMathlib.WeightMultisets",
-  "path": "Schubert/SymmetricFunctions/ForMathlib/WeightMultisets.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ForMathlib.WeightMultisets",
+  "path": "KlebersConjecture/SymmetricFunctions/ForMathlib/WeightMultisets.lean",
   "origin_kind": "unchanged",
   "sha256": "0b74c4af579be674f78d135b5458b24686034924c58ca409ff12dc39fda9b0f0"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Grading",
-  "path": "Schubert/SymmetricFunctions/Grading.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Grading",
+  "path": "KlebersConjecture/SymmetricFunctions/Grading.lean",
   "origin_kind": "unchanged",
-  "sha256": "bc78016220c19bd9482b6817a3e2292e888b6288d61a93155c54350986a519a0"
+  "sha256": "9447b19dd562106af45c74fcebe49dc0ba85ba1de679a9188aedb3d13db942a2"
  },
  {
-  "module": "Schubert.SymmetricFunctions.HomogeneousDecomposition",
-  "path": "Schubert/SymmetricFunctions/HomogeneousDecomposition.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.HomogeneousDecomposition",
+  "path": "KlebersConjecture/SymmetricFunctions/HomogeneousDecomposition.lean",
   "origin_kind": "unchanged",
-  "sha256": "6d07fbb5b43b238f02475b60e231667c609e6c45c23f4aaee28a65cea6710851"
+  "sha256": "a321b2b9302d60ed6e76d0534d2abac27777c87954c2785e180f729c49c00c72"
  },
  {
-  "module": "Schubert.SymmetricFunctions.HomogeneousRestriction",
-  "path": "Schubert/SymmetricFunctions/HomogeneousRestriction.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.HomogeneousRestriction",
+  "path": "KlebersConjecture/SymmetricFunctions/HomogeneousRestriction.lean",
   "origin_kind": "unchanged",
-  "sha256": "a440ba959501dc3c0e803d37a6deaf0d8bcee3ce7b3c56910bc55b7bf480cc50"
+  "sha256": "342c7e1ddd7fdf6f99badb65543304836d00418f8fdd99fd230fe52129bcb95c"
  },
  {
-  "module": "Schubert.SymmetricFunctions.JacobiTrudi.FiniteJacobiTrudi",
-  "path": "Schubert/SymmetricFunctions/JacobiTrudi/FiniteJacobiTrudi.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.JacobiTrudi.FiniteJacobiTrudi",
+  "path": "KlebersConjecture/SymmetricFunctions/JacobiTrudi/FiniteJacobiTrudi.lean",
   "origin_kind": "unchanged",
-  "sha256": "6c23b9c500eedfc22804f0657f394ca0eaae5805cb9cc0f3b08e47935f4dff31"
+  "sha256": "300777cdcd78ea2d776708967d8aaa9b58b7f6c827a9ad89cb9902a9f76146ed"
  },
  {
-  "module": "Schubert.SymmetricFunctions.JacobiTrudi.JacobiTrudi",
-  "path": "Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.JacobiTrudi.JacobiTrudi",
+  "path": "KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean",
   "origin_kind": "unchanged",
-  "sha256": "aab90b1487022ffd052148004b399c637dcdcff00d10b55f3bee4c769f383bd1"
+  "sha256": "461721aa4a4b2972f2747c31134869880a5837a8bc00afa2cc597719e0e44977"
  },
  {
-  "module": "Schubert.SymmetricFunctions.JacobiTrudi.JacobiTrudiMatrix",
-  "path": "Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.JacobiTrudi.JacobiTrudiMatrix",
+  "path": "KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean",
   "origin_kind": "unchanged",
-  "sha256": "d2b649c3997c568a293bacb077e2c017a0bb51f8ab6477919f8bafbc17e22716"
+  "sha256": "9fb751c0f09d335292ea78ad7aa8507825215433d72e70e9ca0b4eda4fd3f731"
  },
  {
-  "module": "Schubert.SymmetricFunctions.JacobiTrudi.JacobiTrudiPadding",
-  "path": "Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiPadding.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.JacobiTrudi.JacobiTrudiPadding",
+  "path": "KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiPadding.lean",
   "origin_kind": "unchanged",
-  "sha256": "5e5a4233e88ebc56edd6bbaaa0825f301296f4b24840aa6a8236944a66b9d244"
+  "sha256": "ee063b96f4b58ff2221bcbad3268eb69689e595e983c429f6557e42fd7b2db51"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.Coefficients",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.Coefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "7a7342562494c59304c9c42fd1ab824627fbf0a234918f9991049041a7b79c40"
+  "sha256": "112cf5a5629b6edb97faef1f3ab49949ff734e8abc7df4f81846999c1a23e4a3"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.Containment",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/Containment.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.Containment",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Containment.lean",
   "origin_kind": "unchanged",
-  "sha256": "64085318829ebb60b95b5c4828e5bbd9ef03a80cdaf76fd7173d3fd5523fd19c"
+  "sha256": "dfa794042518348c832d58373561b84a98fb802dae6b5c122241b6b4810fb4c2"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.Coordinates",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/Coordinates.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.Coordinates",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coordinates.lean",
   "origin_kind": "unchanged",
-  "sha256": "f513a0f85a7254d5837413f9675dd3c6a3348b163a0a444d7b4c5733ecfb99d5"
+  "sha256": "2407041a6eb6317679955243f4a0256c39bc2d8e32dc61ddf78c91138094192d"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Alternant",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Alternant.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Alternant",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Alternant.lean",
   "origin_kind": "unchanged",
-  "sha256": "37491fddc1e034ee669b30c82998da070a020d5c70bfccf3c0d022da98571131"
+  "sha256": "692f6e016a2de83de224833854453117cee296c271d1808aeb3cd61b4b4ec356"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Involution",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Involution.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Involution",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Involution.lean",
   "origin_kind": "unchanged",
-  "sha256": "a04a88fb62c20ed3b1b5c3b0e91c7408f6e1e1d1fd09c77767255c81322e2911"
+  "sha256": "82e5ca39b89599cece5b55b31aba94c0dabcc76943a3ba45d3883d7f2487402d"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Laurent",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Laurent.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Laurent",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Laurent.lean",
   "origin_kind": "unchanged",
   "sha256": "5d713572fa77e24e04d51401e364dbd05ebfe4c4f52a57cdfa786a83b54d2846"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.RowCount",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/RowCount.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.RowCount",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/RowCount.lean",
   "origin_kind": "unchanged",
-  "sha256": "b3c017c9dabcb545e844bcce960074118a8a6fc6f50664a7c7ffd50720216a46"
+  "sha256": "6d7b43f77880e5fe3b932a8783f06731711d06ff9c7c929a27ff8caaf28cca75"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Rule",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Rule.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Rule",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Rule.lean",
   "origin_kind": "unchanged",
-  "sha256": "c6d184248abd06e4c20e500a647384755767dc9e3bc4193a4c2fdfe8dcaefc40"
+  "sha256": "d51fbe8f8e00dd2bbafc6911283a75bcb26665affbbc7e0cf587da696665e4e2"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.SchurBridge",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/SchurBridge.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.SchurBridge",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/SchurBridge.lean",
   "origin_kind": "unchanged",
-  "sha256": "ad6f1a57040b2ab0c7d48dd115adb2c527069d51fda5570248e51481084055b8"
+  "sha256": "605b34ed41f609fe65523c4fc37ad83d3a97a93ed048189c0fc6e3b515986b00"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.ViolationCut",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/ViolationCut.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.ViolationCut",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/ViolationCut.lean",
   "origin_kind": "unchanged",
-  "sha256": "b022b3096951606db2c39d26586804ebb1e9b46a71fef9db5848225e292b589e"
+  "sha256": "f0469a294424fadaa20bf6b9c6593d36c62f0bd9d6b95ff24418fdbb9c3abbc5"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Word",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Word.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.FiniteAlphabet.Word",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/FiniteAlphabet/Word.lean",
   "origin_kind": "unchanged",
-  "sha256": "1ad9762a93fdd9f800a4a058616c34104b3562e2ef6e0813fed4efaa1def74a0"
+  "sha256": "b795578f085523a4bc5532f88c03d1b15d651d98439c2624a79841fc65d03d1a"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.HighestWeight",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/HighestWeight.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.HighestWeight",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/HighestWeight.lean",
   "origin_kind": "unchanged",
-  "sha256": "c67205347de731f73096d7f397ae06478a4345d2017756276763df112c62959e"
+  "sha256": "fe6e1393beeb6769f1bc0a116087ca4ae2614358e437d7eea846908ede93ec7e"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.RowReconstruction",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/RowReconstruction.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.RowReconstruction",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowReconstruction.lean",
   "origin_kind": "unchanged",
   "sha256": "326259265d5eabeb83dcdabd9e6ca4dbc4000d5c3d941e923f7dd5b989937dbf"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.RowRemoval",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.RowRemoval",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean",
   "origin_kind": "unchanged",
-  "sha256": "16874b5a149fb1714b64de81fd48000e1547f3e9ab0a891e2247545057b92d09"
+  "sha256": "f4563ea7989dba697bb4282a77002df58cd02a9e42e1260b78803017184df3a8"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.SkewReconstruction",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/SkewReconstruction.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.SkewReconstruction",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/SkewReconstruction.lean",
   "origin_kind": "unchanged",
-  "sha256": "73c94d1c251284815c64ffdc87ab591ac069c8491d01a93d301b0ec2b9d8e840"
+  "sha256": "b5501861dcc001963084a78db26faa831f9b53a1e61ad8ae1e2c976f05a3293d"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.StraightReconstruction",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/StraightReconstruction.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.StraightReconstruction",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/StraightReconstruction.lean",
   "origin_kind": "unchanged",
-  "sha256": "52202f73e66f98696c1a48f47104eb901d9e503a1db59e814e5ea04addf992df"
+  "sha256": "ed267630f8a61e5dd17e0bfc32010e2b4718c7482f4ef15ab2e513fa814c9d34"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.TableauRowMaps",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/TableauRowMaps.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.TableauRowMaps",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TableauRowMaps.lean",
   "origin_kind": "unchanged",
-  "sha256": "dda7a3c46a07d177d615582935f504e46b7deb4b0fb52bf9fea6c1d358a2ae35"
+  "sha256": "0212c786e2c4892d099bf67f970030746bcda0dc9c8b57310da4da2b2aa7ddd5"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.TableauRows",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/TableauRows.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.TableauRows",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TableauRows.lean",
   "origin_kind": "unchanged",
-  "sha256": "71b3abdee6c3454208feb79b423c4b6370f13f45a5fd9af5688d523d42bf3056"
+  "sha256": "e73c7578c9615624a33c5e688c88eb60c07ac529f94402ea441c029dabc6629e"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.TableauTranspose",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.TableauTranspose",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean",
   "origin_kind": "unchanged",
-  "sha256": "72aaee8da0235d6eeb8d22ef0d71c996c5c1539b8a73ecc34a646ac5e43300d9"
+  "sha256": "8f15d32150172006cb7e6728577403680e05448d2f5e8103c49545a04d68dc13"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.TransposeCounts",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/TransposeCounts.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.TransposeCounts",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TransposeCounts.lean",
   "origin_kind": "unchanged",
-  "sha256": "944e12b01e00a56264cf57fad5d40681f19dc61ec827c4fd40459c3d96a26e4a"
+  "sha256": "779f70dc69a5f491ae9b4444164c011fdc1dadda9fe16ab4b91092f4e65e7999"
  },
  {
-  "module": "Schubert.SymmetricFunctions.LittlewoodRichardson.WordBridges",
-  "path": "Schubert/SymmetricFunctions/LittlewoodRichardson/WordBridges.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.LittlewoodRichardson.WordBridges",
+  "path": "KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/WordBridges.lean",
   "origin_kind": "unchanged",
-  "sha256": "61a7929fdc8e4c20ea2c25050b27b731ab76a3364dcd1bdf615fc1fd1f49ff10"
+  "sha256": "172da7c67cb69dda4f452dc0b56dd9033d59b5fb9b1ef35581f86d8730c4b8fc"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Main",
-  "path": "Schubert/SymmetricFunctions/Main.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Main",
+  "path": "KlebersConjecture/SymmetricFunctions/Main.lean",
   "origin_kind": "unchanged",
-  "sha256": "ad3a0c405207dbdeac62e3d744658358fede31a1e8f91b56b6193644d859cee5"
+  "sha256": "9048168c3bf26707ef4e39283719ee491ad9caa436715642e3436336504d55a5"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Map",
-  "path": "Schubert/SymmetricFunctions/Map.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Map",
+  "path": "KlebersConjecture/SymmetricFunctions/Map.lean",
   "origin_kind": "unchanged",
-  "sha256": "4c845c21c3f7ea66bb43eab18cb754a5dd17b613726fcf59b032fc2814c4d6f5"
+  "sha256": "a6d7eaa3cbb06716d7ec15b67c88a6d5ab6e3cd16d7ee6aa00383ec4bae2bcc5"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Monomial.FiniteMonomialIncidence",
-  "path": "Schubert/SymmetricFunctions/Monomial/FiniteMonomialIncidence.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Monomial.FiniteMonomialIncidence",
+  "path": "KlebersConjecture/SymmetricFunctions/Monomial/FiniteMonomialIncidence.lean",
   "origin_kind": "unchanged",
-  "sha256": "cbfbff3c4ecce2615773520ab55cc1955b9c3dd5f49eb2d9b86661bb116e7b56"
+  "sha256": "0c60cb58e143c4f7a465e61492c6935c6e47ca2bf0fe554004648b65a19261a4"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Monomial.MonomialPowerSum",
-  "path": "Schubert/SymmetricFunctions/Monomial/MonomialPowerSum.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Monomial.MonomialPowerSum",
+  "path": "KlebersConjecture/SymmetricFunctions/Monomial/MonomialPowerSum.lean",
   "origin_kind": "unchanged",
-  "sha256": "3ff926df92ae01637b06eca7c6bc91eb535eeeb446e3b3a363ab6b45cf550bf5"
+  "sha256": "376ecbaf73bb9a5ad86090c54f5e2c149a5bb12542b73261fe7a41895c4b20dd"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Monomial.Weights",
-  "path": "Schubert/SymmetricFunctions/Monomial/Weights.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Monomial.Weights",
+  "path": "KlebersConjecture/SymmetricFunctions/Monomial/Weights.lean",
   "origin_kind": "unchanged",
-  "sha256": "e201035b5c555016af90bcf26511abfb6af451d01eb74bb525188cbac48aa77f"
+  "sha256": "0e504294b7bb6aaec74eead34c857c990dfa47ab2a5a7aaaab0a2c8e189592e6"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.CompleteCalculus",
-  "path": "Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.CompleteCalculus",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean",
   "origin_kind": "unchanged",
-  "sha256": "ad3a3bd18073bbd4897e1f69f740a660fb724249240a5fb2d442408bbe2885d7"
+  "sha256": "cb52c213074f117731236c2ba7b1d840cb1cf169b06c2869ed56d90a65444c4f"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.CompletePresentation",
-  "path": "Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.CompletePresentation",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean",
   "origin_kind": "unchanged",
-  "sha256": "d61673407de5d5d1611cea2ee3a2944eee18b6b7e19d477caacce661f4ff2b1b"
+  "sha256": "8cfaa64ee29770e24c1c78711558d97a382c1d903962f88d2dfe97dd213c4004"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.CompleteProductCoefficients",
-  "path": "Schubert/SymmetricFunctions/Presentations/CompleteProductCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.CompleteProductCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/CompleteProductCoefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "b288f141b58fb31030cdb2bcd6256df0b3d69635c2e917b1b1d93f4da635b30b"
+  "sha256": "03821b6299bcaa8c4a354a8aa4e5cd7fcc1ee8f34cc3e27df15e48da7758d21c"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.ElementaryPresentation",
-  "path": "Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.ElementaryPresentation",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean",
   "origin_kind": "unchanged",
-  "sha256": "1523cfd5621fbcfedb319003d49f8952cb385a5e7c33bff395132062af84afc2"
+  "sha256": "a8287736b6635de65a0df6d972073d6d50cfd9a980333e1e36658396ee492201"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.MonomialPowerSumCoefficients",
-  "path": "Schubert/SymmetricFunctions/Presentations/MonomialPowerSumCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.MonomialPowerSumCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/MonomialPowerSumCoefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "8d0a70c5eadad8bddfa092e0f44490df03a1e869adad60857170671cdd85c8c7"
+  "sha256": "be3550f26cdab9079cb42566158fbf2fc531203c92abf521941eebe0f67cd68b"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.PowerSumCoefficients",
-  "path": "Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.PowerSumCoefficients",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean",
   "origin_kind": "unchanged",
-  "sha256": "f6b6d8fe747d27b73aaac51e68803ed7a7e1db8614bba177072822003f1df69d"
+  "sha256": "281f452dbb186b965b7b0db5d897307ef84fffe7e68b3601999246e090a91a53"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.PowerSumPresentation",
-  "path": "Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.PowerSumPresentation",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean",
   "origin_kind": "unchanged",
-  "sha256": "ebe8ab3f46ca0e9886ba8d94bf3db26f21f81e99f12221c01310e859c0e7b52b"
+  "sha256": "370b66f2a1ece6d60157e5b4d796d78d710684c6ed8976040c5a16b7b1ed3910"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Presentations.SchurCompleteCalculus",
-  "path": "Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Presentations.SchurCompleteCalculus",
+  "path": "KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean",
   "origin_kind": "unchanged",
-  "sha256": "585d8214ee6b8c42615bb402302e22c8aba0a99cb4c0a1db8965c876e9fc9573"
+  "sha256": "67e823099bc721188dd4934583670d99f069dbf1c4e41569accfba83e65f6d3c"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Projection.FirstRowProducts",
-  "path": "Schubert/SymmetricFunctions/Projection/FirstRowProducts.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Projection.FirstRowProducts",
+  "path": "KlebersConjecture/SymmetricFunctions/Projection/FirstRowProducts.lean",
   "origin_kind": "unchanged",
-  "sha256": "104a0e8d56e22984d09471a9c77c65db1f5a55411fb100f8847b024ff1d94a1c"
+  "sha256": "45c975b2c45cfe3ffc0aea8f9c2060b2f293b2c1f7ccc404a152d0a4db48752a"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Projection.FirstRowProjection",
-  "path": "Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Projection.FirstRowProjection",
+  "path": "KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean",
   "origin_kind": "unchanged",
-  "sha256": "909d9d0d129929d2ba37ed3b60eb2217de9137dd4249839b16f5ffcaae1cdded"
+  "sha256": "a497a548a1badfd194887d8c7a88836be8d7cceea36ee85a2bf0a074e38fc5e3"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Projection.RowProjectionFolds",
-  "path": "Schubert/SymmetricFunctions/Projection/RowProjectionFolds.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Projection.RowProjectionFolds",
+  "path": "KlebersConjecture/SymmetricFunctions/Projection/RowProjectionFolds.lean",
   "origin_kind": "unchanged",
-  "sha256": "7ddeb2805cf8086dff7b3ea05ff53463aeef9706beb17fa30f8a8d22353cbdf4"
+  "sha256": "fad8648910cf6b5118c13e3897671a9cc35800cdf647145167a936ce965cd493"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Restriction",
-  "path": "Schubert/SymmetricFunctions/Restriction.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Restriction",
+  "path": "KlebersConjecture/SymmetricFunctions/Restriction.lean",
   "origin_kind": "unchanged",
-  "sha256": "31abc0c9d6b4f820ce888ce3f1ed837b26651fe4384835d28c3e288c15b2ddcd"
+  "sha256": "1596856f19769abd8072d5bac12d17db74d8330986c6c087a2575208cb61fd09"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ScalarExtension.BaseChange",
-  "path": "Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ScalarExtension.BaseChange",
+  "path": "KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean",
   "origin_kind": "unchanged",
-  "sha256": "117d7e62e68cbc30a19612027b42307f67b31ebf0e6560e7c44b90c19f0e4a9c"
+  "sha256": "0e9e0f16052e1c32b924a6bcc503a58d1d8392075c4d2b0d36cde28f6310ca5f"
  },
  {
-  "module": "Schubert.SymmetricFunctions.ScalarExtension.BaseChangeFamilies",
-  "path": "Schubert/SymmetricFunctions/ScalarExtension/BaseChangeFamilies.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.ScalarExtension.BaseChangeFamilies",
+  "path": "KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChangeFamilies.lean",
   "origin_kind": "unchanged",
-  "sha256": "2a25f5974550e7c4b6faf849e1e57598f1219905605ab77610163bf9ab906ff2"
+  "sha256": "ea1cdab39fa7259f4b51dea63a70e23a1f63750b64a4487b21590e8787c918ba"
  },
  {
-  "module": "Schubert.SymmetricFunctions.SymplecticCharacters.Basic",
-  "path": "Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.SymplecticCharacters.Basic",
+  "path": "KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean",
   "origin_kind": "unchanged",
-  "sha256": "91bd6c6943c00f9aa7de7992c81f615ea288bab104ccd8a6ad734cff94be2f16"
+  "sha256": "189060f9b976c690fe624a0b14bd087f231b27de97d5a3b8248012930c1246dd"
  },
  {
-  "module": "Schubert.SymmetricFunctions.SymplecticCharacters.Basis",
-  "path": "Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.SymplecticCharacters.Basis",
+  "path": "KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean",
   "origin_kind": "unchanged",
-  "sha256": "8c9db55288c5ec8785a18456c0ea2585ef8febbcaac66c5c1ae5bb0316398e92"
+  "sha256": "f294279abfbe4834ed21acbd1965a8d18b1a36e427812264ef2361a1ddef5f7a"
  },
  {
-  "module": "Schubert.SymmetricFunctions.SymplecticCharacters.Grading",
-  "path": "Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.SymplecticCharacters.Grading",
+  "path": "KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean",
   "origin_kind": "unchanged",
-  "sha256": "5964598c5a058eb58a2233519687ef5cacf577e91557e5464670256d1a1fb276"
+  "sha256": "54d589f2e59b8a689c2c078cb89eadcac8877cf8882bcf98fc1191a2b1df562e"
  },
  {
-  "module": "Schubert.SymmetricFunctions.SymplecticCharacters.Padding",
-  "path": "Schubert/SymmetricFunctions/SymplecticCharacters/Padding.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.SymplecticCharacters.Padding",
+  "path": "KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Padding.lean",
   "origin_kind": "unchanged",
-  "sha256": "5615cfa5505555e8aa5cd78782e1827ed96c4ac7bcf93a94afb1da45a4d53743"
+  "sha256": "8d9c1352fe3d4affec4e44a8feee05faa59a2b836ffce879fcb8ff9908952adf"
  },
  {
-  "module": "Schubert.SymmetricFunctions.SymplecticCharacters.ProductComponents",
-  "path": "Schubert/SymmetricFunctions/SymplecticCharacters/ProductComponents.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.SymplecticCharacters.ProductComponents",
+  "path": "KlebersConjecture/SymmetricFunctions/SymplecticCharacters/ProductComponents.lean",
   "origin_kind": "unchanged",
-  "sha256": "dcd10d83ab4fe0dacf0598ccfe1dbbe5c4a6351ff7a42ae238f6e4b024fb8c18"
+  "sha256": "e71f3b889168b7d0af8fa39c291c9b75eab99c75af0bfd19be82b2a5deb587f1"
  },
  {
-  "module": "Schubert.SymmetricFunctions.Transfer",
-  "path": "Schubert/SymmetricFunctions/Transfer.lean",
+  "module": "KlebersConjecture.SymmetricFunctions.Transfer",
+  "path": "KlebersConjecture/SymmetricFunctions/Transfer.lean",
   "origin_kind": "unchanged",
-  "sha256": "d6cfe149c35d33002966e6adef0b048757c8e7ba9547d34201dc36ab9629287f"
+  "sha256": "9fdff98b06d9011c54cc70e6a42eb3996a04015c6fb1196c0d6c5f752f4584c2"
  }
 ]

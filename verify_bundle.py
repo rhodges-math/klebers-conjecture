@@ -1,7 +1,7 @@
 """Check the integrity and import completeness of this source bundle.
 
 * every file listed in SHA256SUMS.json is present with the recorded hash;
-* every `Schubert.*` import of a local module is present;
+* every `KlebersConjecture.*` import of a local module is present;
 * the Lake requirements in lakefile.toml match the revisions pinned in lake-manifest.json.
 """
 from pathlib import Path
@@ -29,9 +29,9 @@ for name, path in modules.items():
         for dep in match.group(1).split():
             if dep.startswith('--'):
                 break
-            if dep.startswith('Schubert.') and dep not in modules:
+            if dep.startswith('KlebersConjecture.') and dep not in modules:
                 raise SystemExit(f'Missing dependency of {name}: {dep}')
-unlisted = [p.relative_to(root).as_posix() for p in (root / 'Schubert').rglob('*.lean')
+unlisted = [p.relative_to(root).as_posix() for p in (root / 'KlebersConjecture').rglob('*.lean')
             if p.relative_to(root).as_posix() not in set(modules.values())]
 if unlisted:
     raise SystemExit('Lean sources missing from provenance/LOCAL_MODULES.json: ' + ', '.join(unlisted))

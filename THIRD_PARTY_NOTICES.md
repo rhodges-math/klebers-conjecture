@@ -1,7 +1,7 @@
 # Third-party material
 
 This repository contains no third-party source files. All Lean sources under
-`Schubert/` were written for this formalization.
+`KlebersConjecture/` were written for this formalization.
 
 ## Downloaded dependencies
 

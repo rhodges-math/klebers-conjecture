@@ -1,15 +1,15 @@
 {
  "success": true,
- "verified_utc": "2026-10-08T03:40:17.368833+00:00",
+ "verified_utc": "2026-10-09T15:35:25.383062+00:00",
  "lean_toolchain": "leanprover/lean4:v4.35.0-rc3",
  "mathlib_rev": "b2bf051988bf69448bce88722cc09a05fea31662",
  "tauceti_rev": "48fe7a5f9ba49e3b1c11a72f54f665abc128b36a",
- "entry": "Schubert.ComplementaryProducts.Audit",
+ "entry": "KlebersConjecture.Paper.Audit",
  "local_modules": 129,
  "source_lines": 16092,
- "build_method": "python build.py --jobs 2: lake build of the imported Tau Ceti modules, then all local sources compiled with lake env lean and dependency-sensitive source fingerprints",
- "lake_phase_seconds": 9.69,
- "build_seconds": 1051.24,
+ "build_method": "python build.py --jobs 3: lake build of the imported Tau Ceti modules, then all local sources compiled with lake env lean and dependency-sensitive source fingerprints",
+ "lake_phase_seconds": 21.72,
+ "build_seconds": 723.23,
  "copied_local_olean_files": 0,
  "public_dependencies": "Pinned public Lake dependencies (lake-manifest.json): .lake/packages is a directory junction to the .lake/packages of a development project, which holds the same revisions, with Mathlib objects from the public Mathlib build cache and Tau Ceti modules compiled by Lake from the pinned Tau Ceti sources. No compiled local module was reused.",
  "origin_kinds": {
@@ -37,7 +37,7 @@
   ]
  },
  "linters": {
-  "command": "#lint in Schubert (Batteries default linters)",
+  "command": "#lint in KlebersConjecture (Batteries default linters)",
   "declarations": 1132,
   "errors": 0
  }

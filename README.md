@@ -1,6 +1,6 @@
 # Lean verification of *Kleber's conjecture and complementary products of symmetric functions*
 
-This repository, `rhodges-math/klebers-conjecture` (release 1.0.0), contains a
+This repository, `rhodges-math/klebers-conjecture` (release 2.0.0), contains a
 Lean 4 formalization of *Kleber's conjecture and complementary products of
 symmetric functions* (Reuven Hodges and Hanzhang Yin, 2026),
 [arXiv:2607.12120](https://arxiv.org/abs/2607.12120).
@@ -46,12 +46,12 @@ statements and the paper, which Lean's proof checking alone does not establish.
 ## Main results
 
 The entry point is
-[Schubert/ComplementaryProducts/Main.lean](Schubert/ComplementaryProducts/Main.lean),
+[KlebersConjecture/Paper/Main.lean](KlebersConjecture/Paper/Main.lean),
 which imports every result of the paper; [docs/STATEMENTS.md](docs/STATEMENTS.md)
 lists each statement of the paper with its Lean counterparts.
 
 ```lean
-import Schubert.ComplementaryProducts.Main
+import KlebersConjecture.Paper.Main
 
 open ComplementaryProducts
 
@@ -124,12 +124,12 @@ products to a relation among products indexed by the splittings of one
 partition, and Theorem 1.2 excludes it.
 
 These declarations are in `ComplementaryProducts`
-([RectangularIndependence.lean](Schubert/ComplementaryProducts/RectangularIndependence.lean),
-[Gap.lean](Schubert/ComplementaryProducts/Gap.lean),
-[GapTails.lean](Schubert/ComplementaryProducts/GapTails.lean),
-[GapProjection.lean](Schubert/ComplementaryProducts/GapProjection.lean),
-[GapBlocks.lean](Schubert/ComplementaryProducts/GapBlocks.lean),
-[TensorIndependence.lean](Schubert/ComplementaryProducts/TensorIndependence.lean)).
+([RectangularIndependence.lean](KlebersConjecture/Paper/RectangularIndependence.lean),
+[Gap.lean](KlebersConjecture/Paper/Gap.lean),
+[GapTails.lean](KlebersConjecture/Paper/GapTails.lean),
+[GapProjection.lean](KlebersConjecture/Paper/GapProjection.lean),
+[GapBlocks.lean](KlebersConjecture/Paper/GapBlocks.lean),
+[TensorIndependence.lean](KlebersConjecture/Paper/TensorIndependence.lean)).
 
 | Declaration | Result |
 | --- | --- |
@@ -161,10 +161,10 @@ it to the ordered family of Lemma 3.3; the maximal self-pair is treated by
 Lemma 3.7.
 
 These declarations are in `ComplementaryProducts`
-([SplittingIndependence.lean](Schubert/ComplementaryProducts/SplittingIndependence.lean),
-[SplittingDerivative.lean](Schubert/ComplementaryProducts/SplittingDerivative.lean),
-[OrientedIndependence.lean](Schubert/ComplementaryProducts/OrientedIndependence.lean),
-[MaximalSelfPair.lean](Schubert/ComplementaryProducts/MaximalSelfPair.lean)) and
+([SplittingIndependence.lean](KlebersConjecture/Paper/SplittingIndependence.lean),
+[SplittingDerivative.lean](KlebersConjecture/Paper/SplittingDerivative.lean),
+[OrientedIndependence.lean](KlebersConjecture/Paper/OrientedIndependence.lean),
+[MaximalSelfPair.lean](KlebersConjecture/Paper/MaximalSelfPair.lean)) and
 in the symmetric-function library.
 
 | Declaration | Result |
@@ -199,9 +199,9 @@ basis of $\Lambda\_R$ over every commutative ring, and the top homogeneous
 component of $s\_{\[\lambda\]}$ is $s\_\lambda$.
 
 These declarations are in `ComplementaryProducts`
-([UniversalProducts.lean](Schubert/ComplementaryProducts/UniversalProducts.lean))
+([UniversalProducts.lean](KlebersConjecture/Paper/UniversalProducts.lean))
 and in the symmetric-function library
-([SymplecticCharacters/](Schubert/SymmetricFunctions/SymplecticCharacters)).
+([SymplecticCharacters/](KlebersConjecture/SymmetricFunctions/SymplecticCharacters)).
 
 | Declaration | Result |
 | --- | --- |
@@ -234,8 +234,8 @@ characteristic two: there $m\_{(1)}^2=m\_{(2)}+2m\_{(1,1)}=m\_{(2)}$, so the two
 complementary products for the row $(2)$ coincide.
 
 These declarations are in `ComplementaryProducts`
-([MonomialIndependence.lean](Schubert/ComplementaryProducts/MonomialIndependence.lean),
-[CharacteristicTwo.lean](Schubert/ComplementaryProducts/CharacteristicTwo.lean))
+([MonomialIndependence.lean](KlebersConjecture/Paper/MonomialIndependence.lean),
+[CharacteristicTwo.lean](KlebersConjecture/Paper/CharacteristicTwo.lean))
 and in the general libraries.
 
 | Declaration | Result |
@@ -256,12 +256,12 @@ their Lean declarations in [docs/STATEMENTS.md](docs/STATEMENTS.md).
 
 ## Libraries
 
-The Lean library `Schubert` is divided into four parts. The first three are
+The Lean library `KlebersConjecture` is divided into four parts. The first three are
 general and do not import the fourth, which contains the paper.
 
 ### The Partitions library
 
-[Schubert/Partitions/](Schubert/Partitions) (namespace `YoungDiagram`, 14
+[KlebersConjecture/Partitions/](KlebersConjecture/Partitions) (namespace `YoungDiagram`, 14
 files) extends Mathlib's Young diagrams, which represent partitions:
 componentwise addition of row lengths, deletion of rows and of the first row
 and column, rectangles and rectangular complements, finite sets of diagrams of
@@ -277,7 +277,7 @@ words and Littlewood–Richardson tableaux.
 
 ### The SetPartitions library
 
-[Schubert/SetPartitions/](Schubert/SetPartitions) (namespace `Finpartition`,
+[KlebersConjecture/SetPartitions/](KlebersConjecture/SetPartitions) (namespace `Finpartition`,
 7 files) studies the lattice of set partitions of a finite set, ordered by
 refinement, through the equality patterns of maps: counting maps by their
 kernels and Möbius inversion in the lattice.
@@ -289,7 +289,7 @@ kernels and Möbius inversion in the lattice.
 
 ### The SymmetricFunctions library
 
-[Schubert/SymmetricFunctions/](Schubert/SymmetricFunctions) (namespace
+[KlebersConjecture/SymmetricFunctions/](KlebersConjecture/SymmetricFunctions) (namespace
 `SymmetricFunction`, 88 files) develops the ring $\Lambda\_R$ of symmetric
 functions over any commutative semiring, as bounded-degree symmetric power
 series: the grading, restriction to finitely many variables, change of
@@ -322,7 +322,7 @@ SHA-256 hash of every file.
 
 ### The paper
 
-[Schubert/ComplementaryProducts/](Schubert/ComplementaryProducts) (namespace
+[KlebersConjecture/Paper/](KlebersConjecture/Paper) (namespace
 `ComplementaryProducts`, 20 files) contains every result of the paper, as
 described above: the splitting and complementary-pair families, the oriented
 families of Section 3, the gap vectors and fixed-gap projections of Section 4,
@@ -341,7 +341,7 @@ From the repository directory, run:
 ```text
 lake exe cache get
 python build.py --jobs 3
-lake env lean Schubert/ComplementaryProducts/Audit.lean
+lake env lean KlebersConjecture/Paper/Audit.lean
 ```
 
 On Windows, `py -3` can replace `python`; a short project path is recommended.
@@ -349,8 +349,8 @@ The first setup requires internet access and space for Lean and Mathlib.
 The first command downloads public dependency caches. The Python helper first
 has Lake build the Tau Ceti modules used here, then recompiles all
 **129 local Lean modules** in dependency order, and exits with a
-nonzero status if a module fails. With two jobs the full build takes about 18
-minutes on a laptop.
+nonzero status if a module fails. With three jobs the full build takes about
+12 minutes on a laptop.
 
 To resume an interrupted build, or to check that every module was compiled
 from the current sources:
@@ -382,12 +382,12 @@ updating the hash inventory before that integrity check can pass again.
 
 ## Source layout
 
-- `Schubert/Partitions/`, `Schubert/SetPartitions/`,
-  `Schubert/SymmetricFunctions/`: the general libraries described above, each
+- `KlebersConjecture/Partitions/`, `KlebersConjecture/SetPartitions/`,
+  `KlebersConjecture/SymmetricFunctions/`: the general libraries described above, each
   with an entry point `Main.lean`. Files in a `ForMathlib/` folder contain
   general facts about polynomials and determinants, stated in Mathlib's
   namespaces.
-- `Schubert/ComplementaryProducts/`: the paper. `Indices` and `Products` define
+- `KlebersConjecture/Paper/`: the paper. `Indices` and `Products` define
   the index sets and product families; `Oriented*`, `SplittingDerivative`,
   `MaximalSelfPair` and `SplittingIndependence` prove Theorem 1.2 (Section 3);
   `Gap*` and `RectangularIndependence` prove Theorem 1.1 (Section 4);
@@ -395,8 +395,8 @@ updating the hash inventory before that integrity check can pass again.
   `CharacteristicTwo` prove Theorem 1.4 and Remark 5.8 (Section 5);
   `Tensor*` give the statements in $R \otimes\_{\mathbb{Z}} \Lambda\_{\mathbb{Z}}$;
   `Examples` works Examples 4.2 and 5.1.
-- `Schubert/ComplementaryProducts/Main.lean`: imports every result of the paper.
-- `Schubert/ComplementaryProducts/Audit.lean`: the audit described above.
+- `KlebersConjecture/Paper/Main.lean`: imports every result of the paper.
+- `KlebersConjecture/Paper/Audit.lean`: the audit described above.
 - `LIBRARY_MANIFEST.json`: the version, folders and file hashes of the general
   libraries.
 - `docs/STATEMENTS.md`: the statements of the paper and their Lean

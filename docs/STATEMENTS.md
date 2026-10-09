@@ -52,35 +52,35 @@ relative to the repository root.
 
 Status: **formalized**
 
-- `YoungDiagram.rectComplement` ([Schubert/Partitions/Rectangle.lean](../Schubert/Partitions/Rectangle.lean))
-- `YoungDiagram.rowLen_rectComplement` ([Schubert/Partitions/Rectangle.lean](../Schubert/Partitions/Rectangle.lean))
-- `YoungDiagram.rectComplement_rectComplement` ([Schubert/Partitions/Rectangle.lean](../Schubert/Partitions/Rectangle.lean))
-- `YoungDiagram.mem_rectComplement_iff` ([Schubert/Partitions/Rectangle.lean](../Schubert/Partitions/Rectangle.lean))
-- `YoungDiagram.card_add_rectComplement` ([Schubert/Partitions/Rectangle.lean](../Schubert/Partitions/Rectangle.lean))
+- `YoungDiagram.rectComplement` ([KlebersConjecture/Partitions/Rectangle.lean](../KlebersConjecture/Partitions/Rectangle.lean))
+- `YoungDiagram.rowLen_rectComplement` ([KlebersConjecture/Partitions/Rectangle.lean](../KlebersConjecture/Partitions/Rectangle.lean))
+- `YoungDiagram.rectComplement_rectComplement` ([KlebersConjecture/Partitions/Rectangle.lean](../KlebersConjecture/Partitions/Rectangle.lean))
+- `YoungDiagram.mem_rectComplement_iff` ([KlebersConjecture/Partitions/Rectangle.lean](../KlebersConjecture/Partitions/Rectangle.lean))
+- `YoungDiagram.card_add_rectComplement` ([KlebersConjecture/Partitions/Rectangle.lean](../KlebersConjecture/Partitions/Rectangle.lean))
 
 ### Theorem 1.1 (Kleber's conjecture) (`thm-rectangular`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.kleber_linearIndependent` ([Schubert/ComplementaryProducts/RectangularIndependence.lean](../Schubert/ComplementaryProducts/RectangularIndependence.lean))
-- `ComplementaryProducts.kleber_linearIndependent_tensor` ([Schubert/ComplementaryProducts/TensorIndependence.lean](../Schubert/ComplementaryProducts/TensorIndependence.lean))
+- `ComplementaryProducts.kleber_linearIndependent` ([KlebersConjecture/Paper/RectangularIndependence.lean](../KlebersConjecture/Paper/RectangularIndependence.lean))
+- `ComplementaryProducts.kleber_linearIndependent_tensor` ([KlebersConjecture/Paper/TensorIndependence.lean](../KlebersConjecture/Paper/TensorIndependence.lean))
 
 ### The $\theta$-splittings $\mathrm{Split}(\theta)$ and the unordered complementary pairs (Section 1)
 
 Status: **formalized**
 
-- `ComplementaryProducts.splittings` ([Schubert/ComplementaryProducts/Indices.lean](../Schubert/ComplementaryProducts/Indices.lean))
-- `ComplementaryProducts.mem_splittings` ([Schubert/ComplementaryProducts/Indices.lean](../Schubert/ComplementaryProducts/Indices.lean))
-- `ComplementaryProducts.complementaryPairs` ([Schubert/ComplementaryProducts/Indices.lean](../Schubert/ComplementaryProducts/Indices.lean))
-- `ComplementaryProducts.mem_complementaryPairs` ([Schubert/ComplementaryProducts/Indices.lean](../Schubert/ComplementaryProducts/Indices.lean))
-- `ComplementaryProducts.schurPairProduct_mk` ([Schubert/ComplementaryProducts/Products.lean](../Schubert/ComplementaryProducts/Products.lean))
+- `ComplementaryProducts.splittings` ([KlebersConjecture/Paper/Indices.lean](../KlebersConjecture/Paper/Indices.lean))
+- `ComplementaryProducts.mem_splittings` ([KlebersConjecture/Paper/Indices.lean](../KlebersConjecture/Paper/Indices.lean))
+- `ComplementaryProducts.complementaryPairs` ([KlebersConjecture/Paper/Indices.lean](../KlebersConjecture/Paper/Indices.lean))
+- `ComplementaryProducts.mem_complementaryPairs` ([KlebersConjecture/Paper/Indices.lean](../KlebersConjecture/Paper/Indices.lean))
+- `ComplementaryProducts.schurPairProduct_mk` ([KlebersConjecture/Paper/Products.lean](../KlebersConjecture/Paper/Products.lean))
 
 ### Theorem 1.2 (`thm-core`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.splitting_linearIndependent` ([Schubert/ComplementaryProducts/SplittingIndependence.lean](../Schubert/ComplementaryProducts/SplittingIndependence.lean))
-- `ComplementaryProducts.splitting_linearIndependent_tensor` ([Schubert/ComplementaryProducts/TensorIndependence.lean](../Schubert/ComplementaryProducts/TensorIndependence.lean))
+- `ComplementaryProducts.splitting_linearIndependent` ([KlebersConjecture/Paper/SplittingIndependence.lean](../KlebersConjecture/Paper/SplittingIndependence.lean))
+- `ComplementaryProducts.splitting_linearIndependent_tensor` ([KlebersConjecture/Paper/TensorIndependence.lean](../KlebersConjecture/Paper/TensorIndependence.lean))
 
 ### The Koike–Terada universal characters $s\_{\[\lambda\]}$ (Section 1)
 
@@ -88,8 +88,8 @@ Status: **formalized**
 
 Here $s\_{\[\lambda\]}$ is the symplectic universal character, given by the integral Koike–Terada determinant with an undoubled first column.
 
-- `SymmetricFunction.symplecticCharacter` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean))
-- `SymmetricFunction.symplecticCharacter_eq_det` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean))
+- `SymmetricFunction.symplecticCharacter` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean))
+- `SymmetricFunction.symplecticCharacter_eq_det` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean))
 
 ### The $s\_{\[\lambda\]}$ form a basis, and the class of $s\_{\[\lambda\]}$ in $F\_{\le \lvert\lambda\rvert}/F\_{\le \lvert\lambda\rvert-1}$ is that of $s\_\lambda$ (Section 1)
 
@@ -97,22 +97,22 @@ Status: **formalized**
 
 Cited in the paper and proved here. The Jacobi–Trudi identity shows that $s\_{\[\lambda\]}-s\_\lambda$ has degree below $\lvert\lambda\rvert$, and unitriangularity then gives a basis over any commutative ring.
 
-- `SymmetricFunction.symplecticCharacterBasis` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean))
-- `SymmetricFunction.symplecticCharacter_sub_schur_mem` ([Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean))
-- `SymmetricFunction.exists_symplecticCharacterBasis` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean))
-- `SymmetricFunction.symplecticCharacterBasis_apply` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basis.lean))
-- `SymmetricFunction.symplecticCharacter_mem_degreeFiltration` ([Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean))
-- `SymmetricFunction.homogeneousComponent_symplecticCharacter` ([Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Grading.lean))
-- `SymmetricFunction.symplecticCharacter_bot` ([Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean](../Schubert/SymmetricFunctions/SymplecticCharacters/Basic.lean))
+- `SymmetricFunction.symplecticCharacterBasis` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean))
+- `SymmetricFunction.symplecticCharacter_sub_schur_mem` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean))
+- `SymmetricFunction.exists_symplecticCharacterBasis` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean))
+- `SymmetricFunction.symplecticCharacterBasis_apply` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basis.lean))
+- `SymmetricFunction.symplecticCharacter_mem_degreeFiltration` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean))
+- `SymmetricFunction.homogeneousComponent_symplecticCharacter` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Grading.lean))
+- `SymmetricFunction.symplecticCharacter_bot` ([KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean](../KlebersConjecture/SymmetricFunctions/SymplecticCharacters/Basic.lean))
 
 ### The degree filtration $F\_{\le d}$ (Section 1) and the Littlewood–Richardson coefficients $c^\nu\_{\lambda,\mu}$ (Section 2.2)
 
 Status: **formalized**
 
-- `SymmetricFunction.degreeFiltration` ([Schubert/SymmetricFunctions/Grading.lean](../Schubert/SymmetricFunctions/Grading.lean))
-- `SymmetricFunction.mem_degreeFiltration_iff` ([Schubert/SymmetricFunctions/Grading.lean](../Schubert/SymmetricFunctions/Grading.lean))
-- `SymmetricFunction.lrCoeff` ([Schubert/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean))
-- `SymmetricFunction.schurBasis_repr_schur_mul_schur` ([Schubert/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean))
+- `SymmetricFunction.degreeFiltration` ([KlebersConjecture/SymmetricFunctions/Grading.lean](../KlebersConjecture/SymmetricFunctions/Grading.lean))
+- `SymmetricFunction.mem_degreeFiltration_iff` ([KlebersConjecture/SymmetricFunctions/Grading.lean](../KlebersConjecture/SymmetricFunctions/Grading.lean))
+- `SymmetricFunction.lrCoeff` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean))
+- `SymmetricFunction.schurBasis_repr_schur_mul_schur` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Coefficients.lean))
 
 ### Corollary 1.3 (`cor-koike-terada`)
 
@@ -120,17 +120,17 @@ Status: **formalized**
 
 Here $s\_{\[\lambda\]}$ is the symplectic universal character.
 
-- `ComplementaryProducts.symplectic_linearIndependent` ([Schubert/ComplementaryProducts/UniversalProducts.lean](../Schubert/ComplementaryProducts/UniversalProducts.lean))
-- `ComplementaryProducts.symplectic_linearIndependent_tensor` ([Schubert/ComplementaryProducts/TensorIndependence.lean](../Schubert/ComplementaryProducts/TensorIndependence.lean))
+- `ComplementaryProducts.symplectic_linearIndependent` ([KlebersConjecture/Paper/UniversalProducts.lean](../KlebersConjecture/Paper/UniversalProducts.lean))
+- `ComplementaryProducts.symplectic_linearIndependent_tensor` ([KlebersConjecture/Paper/TensorIndependence.lean](../KlebersConjecture/Paper/TensorIndependence.lean))
 
 ### Theorem 1.4 (`thm-monomial`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.monomial_linearIndependent` ([Schubert/ComplementaryProducts/MonomialIndependence.lean](../Schubert/ComplementaryProducts/MonomialIndependence.lean))
-- `ComplementaryProducts.monomial_linearIndependent_int` ([Schubert/ComplementaryProducts/MonomialIndependence.lean](../Schubert/ComplementaryProducts/MonomialIndependence.lean))
-- `ComplementaryProducts.monomial_linearIndependent_tensor` ([Schubert/ComplementaryProducts/TensorIndependence.lean](../Schubert/ComplementaryProducts/TensorIndependence.lean))
-- `ComplementaryProducts.monomial_linearIndependent_int_tensor` ([Schubert/ComplementaryProducts/TensorIndependence.lean](../Schubert/ComplementaryProducts/TensorIndependence.lean))
+- `ComplementaryProducts.monomial_linearIndependent` ([KlebersConjecture/Paper/MonomialIndependence.lean](../KlebersConjecture/Paper/MonomialIndependence.lean))
+- `ComplementaryProducts.monomial_linearIndependent_int` ([KlebersConjecture/Paper/MonomialIndependence.lean](../KlebersConjecture/Paper/MonomialIndependence.lean))
+- `ComplementaryProducts.monomial_linearIndependent_tensor` ([KlebersConjecture/Paper/TensorIndependence.lean](../KlebersConjecture/Paper/TensorIndependence.lean))
+- `ComplementaryProducts.monomial_linearIndependent_int_tensor` ([KlebersConjecture/Paper/TensorIndependence.lean](../KlebersConjecture/Paper/TensorIndependence.lean))
 
 ### The bases $m\_\lambda$, $h\_\lambda$, $s\_\lambda$ and $p\_\lambda$, the presentations $\Lambda\_R=R\[h\_1,h\_2,\ldots\]$ and $\Lambda\_{\mathbb{F}}=\mathbb{F}\[p\_1,p\_2,\ldots\]$, and $\Lambda\_R=R\otimes\_{\mathbb{Z}}\Lambda\_{\mathbb{Z}}$ (Section 2.1)
 
@@ -138,37 +138,37 @@ Status: **formalized**
 
 Cited in the paper and proved here. Here $\Lambda\_R$ is defined as the bounded-degree symmetric power series over $R$, so $\Lambda\_R\cong R\otimes\_{\mathbb{Z}}\Lambda\_{\mathbb{Z}}$ is a theorem.
 
-- `SymmetricFunction.monomialBasis` ([Schubert/SymmetricFunctions/Bases/MonomialBasis.lean](../Schubert/SymmetricFunctions/Bases/MonomialBasis.lean))
-- `SymmetricFunction.completeBasis` ([Schubert/SymmetricFunctions/Bases/CompleteBasis.lean](../Schubert/SymmetricFunctions/Bases/CompleteBasis.lean))
-- `SymmetricFunction.schurBasis` ([Schubert/SymmetricFunctions/Bases/SchurBasis.lean](../Schubert/SymmetricFunctions/Bases/SchurBasis.lean))
-- `SymmetricFunction.powerSumBasis` ([Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean](../Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean))
-- `SymmetricFunction.completePresentation` ([Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean](../Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean))
-- `SymmetricFunction.baseChangeEquiv` ([Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean](../Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean))
-- `SymmetricFunction.exists_monomialBasis` ([Schubert/SymmetricFunctions/Bases/MonomialBasis.lean](../Schubert/SymmetricFunctions/Bases/MonomialBasis.lean))
-- `SymmetricFunction.monomialBasis_apply` ([Schubert/SymmetricFunctions/Bases/MonomialBasis.lean](../Schubert/SymmetricFunctions/Bases/MonomialBasis.lean))
-- `SymmetricFunction.monomialBasis_repr_apply` ([Schubert/SymmetricFunctions/Bases/MonomialBasis.lean](../Schubert/SymmetricFunctions/Bases/MonomialBasis.lean))
-- `SymmetricFunction.exists_completeBasis` ([Schubert/SymmetricFunctions/Bases/CompleteBasis.lean](../Schubert/SymmetricFunctions/Bases/CompleteBasis.lean))
-- `SymmetricFunction.completeBasis_apply` ([Schubert/SymmetricFunctions/Bases/CompleteBasis.lean](../Schubert/SymmetricFunctions/Bases/CompleteBasis.lean))
-- `SymmetricFunction.exists_schurBasis` ([Schubert/SymmetricFunctions/Bases/SchurBasis.lean](../Schubert/SymmetricFunctions/Bases/SchurBasis.lean))
-- `SymmetricFunction.schurBasis_apply` ([Schubert/SymmetricFunctions/Bases/SchurBasis.lean](../Schubert/SymmetricFunctions/Bases/SchurBasis.lean))
-- `SymmetricFunction.exists_powerSumBasis` ([Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean](../Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean))
-- `SymmetricFunction.powerSumBasis_apply` ([Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean](../Schubert/SymmetricFunctions/Bases/PowerSumBasis.lean))
-- `SymmetricFunction.exists_completePresentation` ([Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean](../Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean))
-- `SymmetricFunction.completePresentation_apply_X` ([Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean](../Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean))
-- `SymmetricFunction.completePresentation_toAlgHom` ([Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean](../Schubert/SymmetricFunctions/Presentations/CompletePresentation.lean))
-- `SymmetricFunction.powerSumPresentation` ([Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
-- `SymmetricFunction.exists_powerSumPresentation` ([Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
-- `SymmetricFunction.powerSumPresentation_apply_X` ([Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
-- `SymmetricFunction.powerSumPresentation_toAlgHom` ([Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
-- `SymmetricFunction.exists_baseChangeEquiv` ([Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean](../Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean))
-- `SymmetricFunction.baseChangeEquiv_tmul` ([Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean](../Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean))
-- `SymmetricFunction.baseChangeEquiv_tmul_monomial` ([Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean](../Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean))
-- `SymmetricFunction.baseChangeEquiv_toAlgHom` ([Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean](../Schubert/SymmetricFunctions/ScalarExtension/BaseChange.lean))
-- `SymmetricFunction.elementaryPresentation` ([Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
-- `SymmetricFunction.exists_elementaryPresentation` ([Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
-- `SymmetricFunction.elementaryPresentation_apply_X` ([Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../Schubert/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
-- `SymmetricFunction.elementaryBasis` ([Schubert/SymmetricFunctions/Bases/ElementaryBasis.lean](../Schubert/SymmetricFunctions/Bases/ElementaryBasis.lean))
-- `SymmetricFunction.elementaryBasis_apply` ([Schubert/SymmetricFunctions/Bases/ElementaryBasis.lean](../Schubert/SymmetricFunctions/Bases/ElementaryBasis.lean))
+- `SymmetricFunction.monomialBasis` ([KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean))
+- `SymmetricFunction.completeBasis` ([KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean))
+- `SymmetricFunction.schurBasis` ([KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean))
+- `SymmetricFunction.powerSumBasis` ([KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean))
+- `SymmetricFunction.completePresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean))
+- `SymmetricFunction.baseChangeEquiv` ([KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean](../KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean))
+- `SymmetricFunction.exists_monomialBasis` ([KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean))
+- `SymmetricFunction.monomialBasis_apply` ([KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean))
+- `SymmetricFunction.monomialBasis_repr_apply` ([KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/MonomialBasis.lean))
+- `SymmetricFunction.exists_completeBasis` ([KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean))
+- `SymmetricFunction.completeBasis_apply` ([KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/CompleteBasis.lean))
+- `SymmetricFunction.exists_schurBasis` ([KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean))
+- `SymmetricFunction.schurBasis_apply` ([KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/SchurBasis.lean))
+- `SymmetricFunction.exists_powerSumBasis` ([KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean))
+- `SymmetricFunction.powerSumBasis_apply` ([KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/PowerSumBasis.lean))
+- `SymmetricFunction.exists_completePresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean))
+- `SymmetricFunction.completePresentation_apply_X` ([KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean))
+- `SymmetricFunction.completePresentation_toAlgHom` ([KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompletePresentation.lean))
+- `SymmetricFunction.powerSumPresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
+- `SymmetricFunction.exists_powerSumPresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
+- `SymmetricFunction.powerSumPresentation_apply_X` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
+- `SymmetricFunction.powerSumPresentation_toAlgHom` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumPresentation.lean))
+- `SymmetricFunction.exists_baseChangeEquiv` ([KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean](../KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean))
+- `SymmetricFunction.baseChangeEquiv_tmul` ([KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean](../KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean))
+- `SymmetricFunction.baseChangeEquiv_tmul_monomial` ([KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean](../KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean))
+- `SymmetricFunction.baseChangeEquiv_toAlgHom` ([KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean](../KlebersConjecture/SymmetricFunctions/ScalarExtension/BaseChange.lean))
+- `SymmetricFunction.elementaryPresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
+- `SymmetricFunction.exists_elementaryPresentation` ([KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
+- `SymmetricFunction.elementaryPresentation_apply_X` ([KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean](../KlebersConjecture/SymmetricFunctions/Presentations/ElementaryPresentation.lean))
+- `SymmetricFunction.elementaryBasis` ([KlebersConjecture/SymmetricFunctions/Bases/ElementaryBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/ElementaryBasis.lean))
+- `SymmetricFunction.elementaryBasis_apply` ([KlebersConjecture/SymmetricFunctions/Bases/ElementaryBasis.lean](../KlebersConjecture/SymmetricFunctions/Bases/ElementaryBasis.lean))
 
 ### The monomial, complete, power-sum and Schur functions as defined in Section 2.1
 
@@ -176,14 +176,14 @@ Status: **formalized**
 
 Here $s\_\lambda$ is defined by its Kostka expansion and shown to satisfy the bialternant formula $s\_\lambda a\_\delta=a\_{\lambda+\delta}$, which is proved in the Tau Ceti library.
 
-- `SymmetricFunction.restrict_schur_eq_diagramSchurPoly` ([Schubert/SymmetricFunctions/Families/Schur.lean](../Schubert/SymmetricFunctions/Families/Schur.lean))
-- `SymmetricFunction.restrict_schur_mul_alternant` ([Schubert/SymmetricFunctions/Families/Schur.lean](../Schubert/SymmetricFunctions/Families/Schur.lean))
-- `SymmetricFunction.schur_eq_of_restrict_alternant` ([Schubert/SymmetricFunctions/Families/Schur.lean](../Schubert/SymmetricFunctions/Families/Schur.lean))
-- `SymmetricFunction.restrict_monomial` ([Schubert/SymmetricFunctions/Families/Monomial.lean](../Schubert/SymmetricFunctions/Families/Monomial.lean))
-- `SymmetricFunction.coeff_complete_nat` ([Schubert/SymmetricFunctions/Families/Families.lean](../Schubert/SymmetricFunctions/Families/Families.lean))
-- `SymmetricFunction.restrict_complete_nat` ([Schubert/SymmetricFunctions/Families/Families.lean](../Schubert/SymmetricFunctions/Families/Families.lean))
-- `SymmetricFunction.restrict_powerSum` ([Schubert/SymmetricFunctions/Families/Families.lean](../Schubert/SymmetricFunctions/Families/Families.lean))
-- `SymmetricFunction.killCompl_restrict` ([Schubert/SymmetricFunctions/Restriction.lean](../Schubert/SymmetricFunctions/Restriction.lean))
+- `SymmetricFunction.restrict_schur_eq_diagramSchurPoly` ([KlebersConjecture/SymmetricFunctions/Families/Schur.lean](../KlebersConjecture/SymmetricFunctions/Families/Schur.lean))
+- `SymmetricFunction.restrict_schur_mul_alternant` ([KlebersConjecture/SymmetricFunctions/Families/Schur.lean](../KlebersConjecture/SymmetricFunctions/Families/Schur.lean))
+- `SymmetricFunction.schur_eq_of_restrict_alternant` ([KlebersConjecture/SymmetricFunctions/Families/Schur.lean](../KlebersConjecture/SymmetricFunctions/Families/Schur.lean))
+- `SymmetricFunction.restrict_monomial` ([KlebersConjecture/SymmetricFunctions/Families/Monomial.lean](../KlebersConjecture/SymmetricFunctions/Families/Monomial.lean))
+- `SymmetricFunction.coeff_complete_nat` ([KlebersConjecture/SymmetricFunctions/Families/Families.lean](../KlebersConjecture/SymmetricFunctions/Families/Families.lean))
+- `SymmetricFunction.restrict_complete_nat` ([KlebersConjecture/SymmetricFunctions/Families/Families.lean](../KlebersConjecture/SymmetricFunctions/Families/Families.lean))
+- `SymmetricFunction.restrict_powerSum` ([KlebersConjecture/SymmetricFunctions/Families/Families.lean](../KlebersConjecture/SymmetricFunctions/Families/Families.lean))
+- `SymmetricFunction.killCompl_restrict` ([KlebersConjecture/SymmetricFunctions/Restriction.lean](../KlebersConjecture/SymmetricFunctions/Restriction.lean))
 
 ### Equation (2.1): the Jacobi–Trudi identity (`eq-jacobi-trudi`)
 
@@ -191,35 +191,35 @@ Status: **formalized**
 
 Cited in the paper and proved here, in finitely many variables from the bialternant formula, then by letting the number of variables grow.
 
-- `SymmetricFunction.schur_eq_det_jacobiTrudiMatrix` ([Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean](../Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean))
+- `SymmetricFunction.schur_eq_det_jacobiTrudiMatrix` ([KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean](../KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudi.lean))
 
 ### Coefficient extraction $\[h\_a^j\]\_{\mathrm{p}}$ and $\[p\_d^j\]\_{\mathrm{p}}$ (Section 2.1), and the derivations $\partial/\partial h\_n$ (Section 2.3)
 
 Status: **formalized**
 
-- `SymmetricFunction.completeCoeff` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeDegree` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_generator_mul` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.mem_adjoin_complete_iff` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.powerSumCoeff` ([Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
-- `SymmetricFunction.completeDerivation` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeDerivation_generator` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.derivation_ext_complete` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_reconstruction` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_sum_mul_pow` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_generator_pow` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_mul_of_degreeOf_eq_zero` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_mem_adjoin` ([Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/CompleteCalculus.lean))
-- `SymmetricFunction.powerSumCoeff_reconstruction` ([Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
-- `SymmetricFunction.powerSumCoeff_sum_mul_pow` ([Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
-- `SymmetricFunction.powerSumCoeff_mem_adjoin` ([Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../Schubert/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
+- `SymmetricFunction.completeCoeff` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeDegree` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_generator_mul` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.mem_adjoin_complete_iff` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.powerSumCoeff` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
+- `SymmetricFunction.completeDerivation` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeDerivation_generator` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.derivation_ext_complete` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_reconstruction` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_sum_mul_pow` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_generator_pow` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_mul_of_degreeOf_eq_zero` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_mem_adjoin` ([KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/CompleteCalculus.lean))
+- `SymmetricFunction.powerSumCoeff_reconstruction` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
+- `SymmetricFunction.powerSumCoeff_sum_mul_pow` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
+- `SymmetricFunction.powerSumCoeff_mem_adjoin` ([KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean](../KlebersConjecture/SymmetricFunctions/Presentations/PowerSumCoefficients.lean))
 
 ### $\mathrm{Top}(f)$ (Section 2.1)
 
 Status: **formalized**
 
-- `SymmetricFunction.topRow` ([Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean))
-- `SymmetricFunction.topRow_le_iff` ([Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean))
+- `SymmetricFunction.topRow` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean))
+- `SymmetricFunction.topRow_le_iff` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean))
 
 ### The Littlewood–Richardson rule in skew-tableau form (Section 2.2)
 
@@ -227,9 +227,9 @@ Status: **formalized**
 
 Cited in the paper and proved here, by a sign-reversing involution after Stembridge on tableaux of straight shape, then a bijection to the skew tableaux of the paper.
 
-- `SymmetricFunction.lrCoeff_eq_card_lrTableaux` ([Schubert/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean))
-- `SymmetricFunction.lrCoeff_eq_zero_of_not_le` ([Schubert/SymmetricFunctions/LittlewoodRichardson/Containment.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/Containment.lean))
-- `SymmetricFunction.card_eq_of_lrCoeff_ne_zero` ([Schubert/SymmetricFunctions/LittlewoodRichardson/Containment.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/Containment.lean))
+- `SymmetricFunction.lrCoeff_eq_card_lrTableaux` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/TableauTranspose.lean))
+- `SymmetricFunction.lrCoeff_eq_zero_of_not_le` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Containment.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Containment.lean))
+- `SymmetricFunction.card_eq_of_lrCoeff_ne_zero` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Containment.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/Containment.lean))
 
 ### Lemma 2.2 (`lem-row-removal`)
 
@@ -237,8 +237,8 @@ Status: **formalized**
 
 The proof uses the straight-shape form of the Littlewood–Richardson rule, with tableaux of shape $\beta$ instead of shape $\nu/\alpha$.
 
-- `SymmetricFunction.rowLen_zero_le_of_lrCoeff_ne_zero` ([Schubert/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean))
-- `SymmetricFunction.lrCoeff_eq_lrCoeff_dropRows` ([Schubert/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean](../Schubert/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean))
+- `SymmetricFunction.rowLen_zero_le_of_lrCoeff_ne_zero` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean))
+- `SymmetricFunction.lrCoeff_eq_lrCoeff_dropRows` ([KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean](../KlebersConjecture/SymmetricFunctions/LittlewoodRichardson/RowRemoval.lean))
 
 ### Corollary 2.3 (`cor-top-product`)
 
@@ -246,16 +246,16 @@ Status: **formalized**
 
 The lower bound uses $c^{\alpha+\beta}\_{\alpha,\beta}=1$ directly, without row removal.
 
-- `SymmetricFunction.topRow_schur_mul_schur` ([Schubert/SymmetricFunctions/Projection/FirstRowProducts.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProducts.lean))
+- `SymmetricFunction.topRow_schur_mul_schur` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProducts.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProducts.lean))
 
 ### Definition 2.4
 
 Status: **formalized**
 
-- `SymmetricFunction.jacobiTrudiMatrix` ([Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean](../Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean))
-- `YoungDiagram.removeFirstRowCol` ([Schubert/Partitions/Rows.lean](../Schubert/Partitions/Rows.lean))
-- `SymmetricFunction.jacobiTrudiMatrix_apply` ([Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean](../Schubert/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean))
-- `YoungDiagram.rowLen_removeFirstRowCol` ([Schubert/Partitions/Rows.lean](../Schubert/Partitions/Rows.lean))
+- `SymmetricFunction.jacobiTrudiMatrix` ([KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean](../KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean))
+- `YoungDiagram.removeFirstRowCol` ([KlebersConjecture/Partitions/Rows.lean](../KlebersConjecture/Partitions/Rows.lean))
+- `SymmetricFunction.jacobiTrudiMatrix_apply` ([KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean](../KlebersConjecture/SymmetricFunctions/JacobiTrudi/JacobiTrudiMatrix.lean))
+- `YoungDiagram.rowLen_removeFirstRowCol` ([KlebersConjecture/Partitions/Rows.lean](../KlebersConjecture/Partitions/Rows.lean))
 
 ### Lemma 2.5 (`lem-jt-derivative`)
 
@@ -263,94 +263,94 @@ Status: **formalized**
 
 The Jacobi–Trudi determinant is expanded along the first row instead of the last column.
 
-- `SymmetricFunction.degreeOf_schur` ([Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
-- `SymmetricFunction.completeCoeff_schur` ([Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
-- `SymmetricFunction.completeDerivation_schur` ([Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../Schubert/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
+- `SymmetricFunction.degreeOf_schur` ([KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
+- `SymmetricFunction.completeCoeff_schur` ([KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
+- `SymmetricFunction.completeDerivation_schur` ([KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean](../KlebersConjecture/SymmetricFunctions/Presentations/SchurCompleteCalculus.lean))
 
 ### Definition 3.1 (`def-first-row-projection`)
 
 Status: **formalized**
 
-- `SymmetricFunction.firstRowProjection` ([Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean))
-- `SymmetricFunction.firstRowProjection_schur` ([Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProjection.lean))
+- `SymmetricFunction.firstRowProjection` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean))
+- `SymmetricFunction.firstRowProjection_schur` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProjection.lean))
 
 ### Lemma 3.2 (`lem-top-row-projection`)
 
 Status: **formalized**
 
-- `SymmetricFunction.firstRowProjection_schur_mul_schur` ([Schubert/SymmetricFunctions/Projection/FirstRowProducts.lean](../Schubert/SymmetricFunctions/Projection/FirstRowProducts.lean))
+- `SymmetricFunction.firstRowProjection_schur_mul_schur` ([KlebersConjecture/SymmetricFunctions/Projection/FirstRowProducts.lean](../KlebersConjecture/SymmetricFunctions/Projection/FirstRowProducts.lean))
 
 ### Lemma 3.3 (`lem-oriented-block`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.oriented_linearIndependent` ([Schubert/ComplementaryProducts/OrientedIndependence.lean](../Schubert/ComplementaryProducts/OrientedIndependence.lean))
+- `ComplementaryProducts.oriented_linearIndependent` ([KlebersConjecture/Paper/OrientedIndependence.lean](../KlebersConjecture/Paper/OrientedIndependence.lean))
 
 ### Lemma 3.7 (`lem-maximal-self-pair`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.coeff_eq_zero_of_maximal_self_pair` ([Schubert/ComplementaryProducts/MaximalSelfPair.lean](../Schubert/ComplementaryProducts/MaximalSelfPair.lean))
+- `ComplementaryProducts.coeff_eq_zero_of_maximal_self_pair` ([KlebersConjecture/Paper/MaximalSelfPair.lean](../KlebersConjecture/Paper/MaximalSelfPair.lean))
 
 ### $\mathrm{gap}(\lambda)$ is a partition, and $\mathrm{gap}(\lambda^\vee)=\mathrm{gap}(\lambda)$ (Section 4)
 
 Status: **formalized**
 
-- `ComplementaryProducts.gap_rectComplement` ([Schubert/ComplementaryProducts/GapTails.lean](../Schubert/ComplementaryProducts/GapTails.lean))
+- `ComplementaryProducts.gap_rectComplement` ([KlebersConjecture/Paper/GapTails.lean](../KlebersConjecture/Paper/GapTails.lean))
 
 ### Gap vectors, the shapes $\Theta\_g$ and the projections $\Pi\_g$ (Section 4)
 
 Status: **formalized**
 
-- `ComplementaryProducts.gap` ([Schubert/ComplementaryProducts/Gap.lean](../Schubert/ComplementaryProducts/Gap.lean))
-- `ComplementaryProducts.gapShape` ([Schubert/ComplementaryProducts/Gap.lean](../Schubert/ComplementaryProducts/Gap.lean))
-- `ComplementaryProducts.rowLen_gapShape_even` ([Schubert/ComplementaryProducts/Gap.lean](../Schubert/ComplementaryProducts/Gap.lean))
-- `ComplementaryProducts.rowLen_gapShape_odd` ([Schubert/ComplementaryProducts/Gap.lean](../Schubert/ComplementaryProducts/Gap.lean))
-- `ComplementaryProducts.gapProjection` ([Schubert/ComplementaryProducts/GapProjection.lean](../Schubert/ComplementaryProducts/GapProjection.lean))
-- `ComplementaryProducts.gapProjection_apply` ([Schubert/ComplementaryProducts/GapProjection.lean](../Schubert/ComplementaryProducts/GapProjection.lean))
+- `ComplementaryProducts.gap` ([KlebersConjecture/Paper/Gap.lean](../KlebersConjecture/Paper/Gap.lean))
+- `ComplementaryProducts.gapShape` ([KlebersConjecture/Paper/Gap.lean](../KlebersConjecture/Paper/Gap.lean))
+- `ComplementaryProducts.rowLen_gapShape_even` ([KlebersConjecture/Paper/Gap.lean](../KlebersConjecture/Paper/Gap.lean))
+- `ComplementaryProducts.rowLen_gapShape_odd` ([KlebersConjecture/Paper/Gap.lean](../KlebersConjecture/Paper/Gap.lean))
+- `ComplementaryProducts.gapProjection` ([KlebersConjecture/Paper/GapProjection.lean](../KlebersConjecture/Paper/GapProjection.lean))
+- `ComplementaryProducts.gapProjection_apply` ([KlebersConjecture/Paper/GapProjection.lean](../KlebersConjecture/Paper/GapProjection.lean))
 
 ### Equation (4.1) (`eq-fixed-gap-tail-sum`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.dropRows_add_dropRows_complement` ([Schubert/ComplementaryProducts/GapTails.lean](../Schubert/ComplementaryProducts/GapTails.lean))
+- `ComplementaryProducts.dropRows_add_dropRows_complement` ([KlebersConjecture/Paper/GapTails.lean](../KlebersConjecture/Paper/GapTails.lean))
 
 ### Example 4.2
 
 Status: **formalized**
 
-- `ComplementaryProducts.GapExample.shape_le_rectangle` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.rectComplement_shape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.gap_shape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.gap_complementShape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.dropRows_shape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.dropRows_complementShape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.tails_add` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.gapProjection_eq` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.firstRowProjection_eleven` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.GapExample.gapProjection_shape` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
+- `ComplementaryProducts.GapExample.shape_le_rectangle` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.rectComplement_shape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.gap_shape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.gap_complementShape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.dropRows_shape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.dropRows_complementShape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.tails_add` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.gapProjection_eq` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.firstRowProjection_eleven` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.GapExample.gapProjection_shape` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
 
 ### Lemma 4.3 (`lem-gap-block`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.gapProjection_of_gap_eq` ([Schubert/ComplementaryProducts/GapBlocks.lean](../Schubert/ComplementaryProducts/GapBlocks.lean))
-- `ComplementaryProducts.gapProjection_of_gap_lt` ([Schubert/ComplementaryProducts/GapBlocks.lean](../Schubert/ComplementaryProducts/GapBlocks.lean))
+- `ComplementaryProducts.gapProjection_of_gap_eq` ([KlebersConjecture/Paper/GapBlocks.lean](../KlebersConjecture/Paper/GapBlocks.lean))
+- `ComplementaryProducts.gapProjection_of_gap_lt` ([KlebersConjecture/Paper/GapBlocks.lean](../KlebersConjecture/Paper/GapBlocks.lean))
 
 ### Lemma 4.4 (`lem-fixed-gap-injective`)
 
 Status: **formalized**
 
-- `ComplementaryProducts.tailPair_injective` ([Schubert/ComplementaryProducts/GapTails.lean](../Schubert/ComplementaryProducts/GapTails.lean))
+- `ComplementaryProducts.tailPair_injective` ([KlebersConjecture/Paper/GapTails.lean](../KlebersConjecture/Paper/GapTails.lean))
 
 ### Example 5.1
 
 Status: **formalized**
 
-- `ComplementaryProducts.SetPartitionExample.mem_parts_pairs` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.SetPartitionExample.mem_parts_singletonsAndPair` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.SetPartitionExample.mem_parts_twoPairs` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
-- `ComplementaryProducts.SetPartitionExample.refines` ([Schubert/ComplementaryProducts/Examples.lean](../Schubert/ComplementaryProducts/Examples.lean))
+- `ComplementaryProducts.SetPartitionExample.mem_parts_pairs` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.SetPartitionExample.mem_parts_singletonsAndPair` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.SetPartitionExample.mem_parts_twoPairs` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
+- `ComplementaryProducts.SetPartitionExample.refines` ([KlebersConjecture/Paper/Examples.lean](../KlebersConjecture/Paper/Examples.lean))
 
 ### The Möbius function of the lattice of set partitions: $\mu(\hat0,\hat1)=(-1)^{k-1}(k-1)!$ (Section 5)
 
@@ -358,13 +358,13 @@ Status: **formalized**
 
 Cited in the paper and proved here, by counting maps by their kernels and comparing the coefficients of $x$ in the falling factorial.
 
-- `Finpartition.mu_bot_top` ([Schubert/SetPartitions/Moebius.lean](../Schubert/SetPartitions/Moebius.lean))
+- `Finpartition.mu_bot_top` ([KlebersConjecture/SetPartitions/Moebius.lean](../KlebersConjecture/SetPartitions/Moebius.lean))
 
 ### Lemma 5.2 (`lem-monomial-top-p`)
 
 Status: **formalized**
 
-- `SymmetricFunction.monomial_eq_smul_powerSum_add` ([Schubert/SymmetricFunctions/Monomial/MonomialPowerSum.lean](../Schubert/SymmetricFunctions/Monomial/MonomialPowerSum.lean))
+- `SymmetricFunction.monomial_eq_smul_powerSum_add` ([KlebersConjecture/SymmetricFunctions/Monomial/MonomialPowerSum.lean](../KlebersConjecture/SymmetricFunctions/Monomial/MonomialPowerSum.lean))
 
 ### Remark 5.8
 
@@ -372,11 +372,11 @@ Status: **formalized**
 
 Stated for every commutative ring of characteristic 2. It follows from $m\_{(1)}^2=m\_{(2)}+2m\_{(1,1)}$, which holds over any commutative ring.
 
-- `SymmetricFunction.powerSum_one_sq` ([Schubert/SymmetricFunctions/Families/PowerSumIdentities.lean](../Schubert/SymmetricFunctions/Families/PowerSumIdentities.lean))
-- `ComplementaryProducts.monomial_singleRow_one_sq_eq_add` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.monomial_singleRow_one_sq_charP_two` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.monomialPairProduct_charP_two` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.not_monomial_linearIndependent_charP_two` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.monomial_singleRow_one_sq` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.monomialPairProduct_char_two` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
-- `ComplementaryProducts.not_monomial_linearIndependent_char_two` ([Schubert/ComplementaryProducts/CharacteristicTwo.lean](../Schubert/ComplementaryProducts/CharacteristicTwo.lean))
+- `SymmetricFunction.powerSum_one_sq` ([KlebersConjecture/SymmetricFunctions/Families/PowerSumIdentities.lean](../KlebersConjecture/SymmetricFunctions/Families/PowerSumIdentities.lean))
+- `ComplementaryProducts.monomial_singleRow_one_sq_eq_add` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.monomial_singleRow_one_sq_charP_two` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.monomialPairProduct_charP_two` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.not_monomial_linearIndependent_charP_two` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.monomial_singleRow_one_sq` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.monomialPairProduct_char_two` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
+- `ComplementaryProducts.not_monomial_linearIndependent_char_two` ([KlebersConjecture/Paper/CharacteristicTwo.lean](../KlebersConjecture/Paper/CharacteristicTwo.lean))
